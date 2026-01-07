@@ -5,7 +5,9 @@
 <!-- LINK FOR SVG -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+
 <!DOCTYPE html>
+
 <html lang="it">
 <head>
   <meta charset="UTF-8">
@@ -13,6 +15,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
 
 <header>
   
@@ -33,12 +36,18 @@
 <nav class="nav-bar">
   <ul class="nav-list">
     <li><a href="index.html" class="nav-link active">Home</a></li>
+    <li><a href="ech-0252-about-model27.html" class="nav-link active">Model27</a></li>
     <li><a href="ech-0252-guide.html" class="nav-link">Implementation Guide</a></li>
     <li><a href="ech-0252-yaml.html" class="nav-link">YAML File</a></li>
     <li><a href="ech-0252-example.html" class="nav-link">Example Delivery</a></li>
-    <li><a href="latest-news.html" class="nav-link">Latest News</a></li>
+    <li><a href="ech-0252-news.html" class="nav-link">Latest News</a></li>
+    <li><a href="ech-0252-faq.html" class="nav-link">FAQs</a></li>
   </ul>
 </nav>
+
+<div id="status-banner" class="status-banner">
+  <span id="status-message"></span>
+</div>
 
 <main>
     <section class = "wrapper"> 
@@ -112,31 +121,24 @@
                     </div>
                   </div>
                   
-                  
                   <!-- Popup -->
                   <div class="popup" id="popup"></div>
                   
-                  <script src="js/script.js"></script>
-            
             <div class="divider"></div>
 
             <h2>Latest News</h2>
 
-              <ul class="updates">
-              <li>
-                  <span class="date">2025-01-10</span>
-                  <p>Add news here.</p>
-              </li>
-              <li>
-                  <span class="date">2024-12-20</span>
-                  <p>Add news here.</p>
-              </li>
-              <a href="latest-news.html"><p>See all</p></a>
-            </ul> 
+              <ul id="updates-home" class="updates"></ul>
+              <a href="ech-0252-news.html"><p>See all</p></a> 
         </section>
 
     </section>
-
+    <script src="content/latest-news.js"></script>
+    <script src="content/timeline-event.js"></script>
+    <script src="content/maintenance.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script-timeline-event.js"></script>
+    <script src="js/script-latest-news-home.js"></script>
 </main>
 
 <footer>
