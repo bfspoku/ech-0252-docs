@@ -1,6 +1,7 @@
 // ========================================================================================================================
 // Latest news handler (ech-0252-news page)
-const listHome = document.getElementById('updates-home');
+
+const listMain = document.getElementById('updates-main');
 
 function parseDate(dateStr) {
   const [day, month, year] = dateStr.split('.');
@@ -9,8 +10,6 @@ function parseDate(dateStr) {
 
 // Ordina per data (più recente prima)
 newsData.sort((a, b) => parseDate(b.date) - parseDate(a.date));
-
-const listMain = document.getElementById('updates-main');
 
 newsData.forEach((item, index) => {
   const li = document.createElement('li');

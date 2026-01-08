@@ -33,17 +33,8 @@
   </div>
 </div>
 
-<nav class="nav-bar">
-  <ul class="nav-list">
-    <li><a href="index.html" class="nav-link active">Home</a></li>
-    <li><a href="ech-0252-about-model27.html" class="nav-link active">Model27</a></li>
-    <li><a href="ech-0252-guide.html" class="nav-link">Implementation Guide</a></li>
-    <li><a href="ech-0252-yaml.html" class="nav-link">YAML File</a></li>
-    <li><a href="ech-0252-example.html" class="nav-link">Example Delivery</a></li>
-    <li><a href="ech-0252-news.html" class="nav-link">Latest News</a></li>
-    <li><a href="ech-0252-faq.html" class="nav-link">FAQs</a></li>
-  </ul>
-</nav>
+<!-- NAV BAR -->
+<div id="nav-bar"></div>
 
 <div id="status-banner" class="status-banner">
   <span id="status-message"></span>
@@ -52,87 +43,42 @@
 <main>
     <section class = "wrapper"> 
         
-        <!-- CARDS -->
-        <section class="cards">
-            <a class="card" href="ech-0252-guide.html">
+      <!-- CARDS -->
+      <section class="cards">
+          <a class="card" href="ech-0252-guide.html">
             <i class="fas fa-file-pdf" style="color:#E53E3E;"></i> PDF
             <h3>Implementation Guide</h3>
-            <p>Add some text here.</p>
-            </a>
+            <p>We provide a comprehensive guide for implementing a ech-0252 XML-based format for Swiss Federal Elections and Popular Vote.</p>
+          </a>
 
-            <a class="card" href="ech-0252-yaml.html">
+          <a class="card" href="ech-0252-yaml.html">
             <i class="fas fa-file-code" style="color:#2B6CB0;"></i> YAML
             <h3>YAML File</h3>
-            <p>Add some text here.</p>
-            </a>
+            <p>We provide the structure of the requested elements in YAML format</p>
+          </a>
 
-            <a class="card" href="ech-0252-example.html">
+          <a class="card" href="ech-0252-example.html">
             <i class="fas fa-file-code" style="color:#D69E2E;"></i> XML
             <h3>Example Delivery</h3>
-            <p>Add some text here.</p>
+            <p>Find here an example of XML delivery.</p>
+          </a>
+      </section>
+
+      <section class="information">
+          <div class="divider"></div>
+
+          <h2>Latest News and Updates</h2>
+
+            <ul id="updates-home" class="updates"></ul>
+            <a href="ech-0252-news.html" class="arrow-link">
+              <p>See all <i class="arrow">→</i> </p>
             </a>
-        </section>
-        
-        <!-- INFORMATION -->
-        <section class="information">
-
-            <h2> Implementation Timeline<h2>
-            <p>2026</p>
-                <div class="timeline-container">
-                    <div class="timeline-line"></div>
-                  
-                    <div class="months">
-                      <div class="month-point">
-                        <span class="month-label">Jan</span>
-                      </div>
-                      <div class="month-point">
-                        <span class="month-label">Feb</span>
-                      </div>
-                      <div class="month-point">
-                        <span class="month-label">Mar</span>
-                      </div>
-                      <div class="month-point">
-                        <span class="month-label">Apr</span>
-                      </div>
-                      <div class="month-point">
-                        <span class="month-label">May</span>
-                      </div>
-                      <div class="month-point">
-                        <span class="month-label">Jun</span>
-                      </div>
-                      <div class="month-point">
-                        <span class="month-label">Jul</span>
-                      </div>
-                      <div class="month-point">
-                        <span class="month-label">Aug</span>
-                      </div>
-                      <div class="month-point">
-                        <span class="month-label">Sep</span>
-                      </div>
-                      <div class="month-point">
-                        <span class="month-label">Oct</span>
-                      </div>
-                      <div class="month-point">
-                        <span class="month-label">Nov</span>
-                      </div>
-                      <div class="month-point">
-                        <span class="month-label">Dec</span>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <!-- Popup -->
-                  <div class="popup" id="popup"></div>
-                  
-            <div class="divider"></div>
-
-            <h2>Latest News</h2>
-
-              <ul id="updates-home" class="updates"></ul>
-              <a href="ech-0252-news.html"><p>See all</p></a> 
-        </section>
-
+ 
+      </section>
+    
     </section>
+    
+    <!-- JS -->
     <script src="content/latest-news.js"></script>
     <script src="content/timeline-event.js"></script>
     <script src="content/maintenance.js"></script>

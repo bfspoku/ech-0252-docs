@@ -10,7 +10,6 @@ function parseDate(dateStr) {
 // Ordina per data (più recente prima)
 newsData.sort((a, b) => parseDate(b.date) - parseDate(a.date));
 
-
 newsData.forEach((item, index) => {
   const li = document.createElement('li');
   li.innerHTML = `

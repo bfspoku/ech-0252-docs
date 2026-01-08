@@ -1,6 +1,6 @@
 /*
 
-We can add new events in the timeline by adding the following object in the array eventsData
+We can add new events in the timeline by adding the following object in the array eventsData.
 
 { 
     "month": "...", 

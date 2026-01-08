@@ -1,21 +1,23 @@
 // ========================================================================================================================
 // Nav. Bar
 
-// Select all the link in the navbar
-const navLinks = document.querySelectorAll('.nav-link');
+document.addEventListener("DOMContentLoaded", async () => {
+  try {
+    const response = await fetch("components/navbar.html");
+    if (!response.ok) throw new Error("Navbar non caricata");
 
-// Get the current path (ex. "index.html")
-const currentPage = window.location.pathname.split("/").pop();
-
-// Loop over the links
-navLinks.forEach(link => {
-  const linkPage = link.getAttribute('href');
-
-  if (linkPage === currentPage) {
-    link.classList.add('active'); // add active class
-  } else {
-    link.classList.remove('active'); // remove other classes
+    document.getElementById("nav-bar").innerHTML = await response.text();
+  } catch (err) {
+    console.error(err);
   }
+
+  // Get the current path (ex. "index.html")
+  const currentPage = window.location.pathname.split("/").pop().split(".")[0];
+  // Select all the link in the navbar
+  const navLinks = document.getElementById(currentPage);
+  navLinks.classList.add('active'); // add active class
+
+
 });
 
 // ========================================================================================================================
@@ -29,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (systemStatus === "Maintenance") {
     banner.classList.add('status-maintenance');
-    messageEl.textContent = "The system is currently under maintenance.";
+    messageEl.textContent = "The server Model27 is currently under maintenance. Designated contact persons will be notified once the server becomes active.";
   } else {
     banner.classList.add('status-ok');
 
@@ -46,6 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
       second: '2-digit'
     });
 
-    messageEl.textContent = `The system is up and running – ${date} ${time}`;
+    messageEl.textContent = `The server Model27 is up and ready to process data - ${date} ${time}`;
   }
 });

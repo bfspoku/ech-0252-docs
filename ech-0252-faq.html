@@ -30,17 +30,7 @@
   </div>
 </div>
 
-<nav class="nav-bar">
-  <ul class="nav-list">
-    <li><a href="index.html" class="nav-link">Home</a></li>
-    <li><a href="ech-0252-about-model27.html" class="nav-link">Model27</a></li>
-    <li><a href="ech-0252-guide.html" class="nav-link">Implementation Guide</a></li>
-    <li><a href="ech-0252-yaml.html" class="nav-link">YAML File</a></li>
-    <li><a href="ech-0252-example.html" class="nav-link">Example Delivery</a></li>
-    <li><a href="ech-0252-news.html" class="nav-link">Latest News</a></li>
-    <li><a href="ech-0252-faq.html" class="nav-link active">FAQs</a></li>
-  </ul>
-</nav>
+<nav id="nav-bar"></nav>
 
 <div id="status-banner" class="status-banner">
   <span id="status-message"></span>
@@ -49,51 +39,13 @@
 <main>
   <section class = "wrapper">
     <h1>Frequently Asked Questions</h1>
-    <section class="faq">    
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>Question 1?</span>
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer">
-          <p>Answer 1?</p>
-        </div>
-      </div>
-    
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>Question 2?</span>
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer">
-          <p>Answer 2?</p>
-        </div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>Question 3?</span>
-          <span class="faq-icon">+</span>
-        </button>
-        <div class="faq-answer">
-          <p>Answer 3?</p>
-        </div>
-      </div>
-    </section>
+    <section id="faq-item" class="faq"></section>
   </section>
 
-  <script>
-    document.querySelectorAll('.faq-question').forEach(button => {
-      button.addEventListener('click', () => {
-        const item = button.parentElement;
-  
-        item.classList.toggle('active');
-      });
-    });
-  </script>
-
   <script src="content/maintenance.js"></script>
+  <script src="content/faqs.js"></script>
+  <script src="js/script-faq.js"></script>
   <script src="js/script.js"></script>
-
 </main>
 
 <footer>
