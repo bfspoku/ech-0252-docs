@@ -7,11 +7,14 @@ body {
   color: #333;
 }
 
+main {
+  min-height: 90vh;
+}
+
 /* Header */
 header {
   background: #2f4356;
-  color: white;
-  padding: 2rem;
+  padding: 1.25em;
 }
 
 /* Sub Banner */
@@ -155,6 +158,13 @@ h1, h2 {
   padding: 0;
 }
 
+.updates a{
+  text-decoration: none;
+}
+.updates p {
+  white-space: "pre-line";
+}
+
 .updates li {
   background: white;
   padding: 1rem;
@@ -182,15 +192,32 @@ h1, h2 {
 .card {
   background: #f0f4f7;
   padding: 2rem;
-  text-decoration: none;
-  color: inherit;
   border: 1px solid #0000000d;
   box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.card .arrow{
+  font-size: 32px;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.card .arrow:hover{
+  transform: translateX(5px);
 }
 
 .card:hover {
   border: 1px solid #0000001b;
   box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-arrow {
+  text-align: right;
 }
 
 /* TIMELINE */
@@ -343,10 +370,9 @@ h1, h2 {
 
 /* FOOTER */
 footer {
-  text-align: center;
+  text-align: right;
   padding: 1rem;
   background: #2f4356;
-  margin-top: 3rem;
 }
 
 footer p {

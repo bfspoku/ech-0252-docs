@@ -12,7 +12,6 @@ Note:
     A javascript will sort automatically the news by date so that they appears in chronological order (the newest at the top) and will show only the last two news on the Home Page.
 
 */
-
 var qaData = [
     { 
         "Q": "Q1?", 

@@ -11,15 +11,12 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>eCH implementation guide</title>
+  <title>Homepage</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-
-<header>
-  
-</header>
+<header></header>
 
 <div class="sub-banner">
   <div class="sub-banner-content">
@@ -33,7 +30,6 @@
   </div>
 </div>
 
-<!-- NAV BAR -->
 <div id="nav-bar"></div>
 
 <div id="status-banner" class="status-banner">
@@ -45,23 +41,31 @@
         
       <!-- CARDS -->
       <section class="cards">
-          <a class="card" href="ech-0252-guide.html">
-            <i class="fas fa-file-pdf" style="color:#E53E3E;"></i> PDF
-            <h3>Implementation Guide</h3>
-            <p>We provide a comprehensive guide for implementing a ech-0252 XML-based format for Swiss Federal Elections and Popular Vote.</p>
-          </a>
+          <div class="card">
+            <a class="card-link" href="guide.html">
+              <i class="fas fa-file" style="color:#E53E3E;"></i> PDF
+              <h3>Implementation Guide</h3>
+              <p>We provide a comprehensive guide for implementing a ech-0252 XML-based format for Swiss Federal Elections and Popular Vote.</p>
+              <p class="card-arrow"><i class="arrow">→</i> </p>
+            </a>
+          </div>
 
-          <a class="card" href="ech-0252-yaml.html">
-            <i class="fas fa-file-code" style="color:#2B6CB0;"></i> YAML
-            <h3>YAML File</h3>
-            <p>We provide the structure of the requested elements in YAML format</p>
+          <div class="card">
+            <a class="card-link" href="yaml_file.html">
+              <i class="fas fa-file" style="color:#2B6CB0;"></i> YAML
+              <h3>Strucural</h3>
+              <p>A collection of YAML files is available, grouped by Election type and system. Each file contains a minimal XML structure, designed to serve as a simple and structured starting point for development.</p>
+              <p class="card-arrow"><i class="arrow">→</i> </p>
+            </a>
+        </div>
+        <div class="card">
+          <a class="card-link" href="xml_file.html">
+            <i class="fas fa-file" style="color:#D69E2E;"></i> XML
+            <h3>Delivery examples</h3>
+            <p>A set of example XML files is provided, grouped by Election type and system, for both information and results deliveries.</p>
+            <p class="card-arrow"><i class="arrow">→</i> </p>
           </a>
-
-          <a class="card" href="ech-0252-example.html">
-            <i class="fas fa-file-code" style="color:#D69E2E;"></i> XML
-            <h3>Example Delivery</h3>
-            <p>Find here an example of XML delivery.</p>
-          </a>
+        </div>
       </section>
 
       <section class="information">
@@ -70,7 +74,7 @@
           <h2>Latest News and Updates</h2>
 
             <ul id="updates-home" class="updates"></ul>
-            <a href="ech-0252-news.html" class="arrow-link">
+            <a href="news.html" class="arrow-link">
               <p>See all <i class="arrow">→</i> </p>
             </a>
  
@@ -80,15 +84,13 @@
     
     <!-- JS -->
     <script src="content/latest-news.js"></script>
-    <script src="content/timeline-event.js"></script>
     <script src="content/maintenance.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/script-timeline-event.js"></script>
     <script src="js/script-latest-news-home.js"></script>
 </main>
 
 <footer>
-  <p>© POKU - GS - BFS Model27</p>
+  <p>© BFS-GS-POKU</p>
 </footer>
 
 </body>

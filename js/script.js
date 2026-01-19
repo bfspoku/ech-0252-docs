@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (systemStatus === "Maintenance") {
     banner.classList.add('status-maintenance');
-    messageEl.textContent = "The server Model27 is currently under maintenance. Designated contact persons will be notified once the server becomes active.";
+    messageEl.textContent = "The Swiss Election ETL system is currently under maintenance. Designated contact persons will be notified once the server becomes active.";
   } else {
     banner.classList.add('status-ok');
 
@@ -48,6 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
       second: '2-digit'
     });
 
-    messageEl.textContent = `The server Model27 is up and ready to process data - ${date} ${time}`;
+    messageEl.textContent = `The Swiss Election ETL system is up and ready to process data - ${date} ${time}`;
   }
 });
