@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (systemStatus === "Maintenance") {
     banner.classList.add('status-maintenance');
-    messageEl.textContent = "The Swiss Election ETL system is currently under maintenance. Designated contact persons will be notified once the server becomes active.";
+    //messageEl.textContent = "The Swiss Election ETL system is currently under maintenance. Designated contact persons will be notified once the server becomes active.";
+    messageEl.textContent = "The Swiss Election ETL system will be live soon!";
   } else {
     banner.classList.add('status-ok');
 
