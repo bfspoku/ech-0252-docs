@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bearbeitet mit XMLSpy v2025 (x64) (https://www.altova.com) von  (Bundesamt für Informatik und Telekommunikation BIT) -->
+<delivery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ech.ch/xmlns/eCH-0252/2">
+	<deliveryHeader>
+		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</senderId>
+		<messageId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</messageId>
+		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1240</messageType>
+		<sendingApplication xmlns="http://www.ech.ch/xmlns/eCH-0058/5">
+			<manufacturer>XXX Informatik AG</manufacturer>
+			<product>Product name</product>
+			<productVersion>Product Version</productVersion>
+		</sendingApplication>
+		<comment xmlns="http://www.ech.ch/xmlns/eCH-0058/5">Comment on delivery for receiving party</comment>
+		<messageDate xmlns="http://www.ech.ch/xmlns/eCH-0058/5">2024-11-04T08:11:26.8963805Z</messageDate>
+		<action xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</action>
+		<testDeliveryFlag xmlns="http://www.ech.ch/xmlns/eCH-0058/5">true</testDeliveryFlag>
+	</deliveryHeader>
+	<electionInformationDelivery>
+		<cantonId>1</cantonId>
+		<pollingDay>2023-10-22</pollingDay>
+		<electionGroupInfo>
+			<electionGroup>
+				<electionGroupIdentification>f81381de-06b1-5402-b9ec-ac51ddf94238</electionGroupIdentification>
+				<domainOfInfluence>
+					<domainOfInfluenceType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">CT</domainOfInfluenceType>
+					<domainOfInfluenceIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</domainOfInfluenceIdentification>
+					<domainOfInfluenceName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">Kanton XY ...</domainOfInfluenceName>
+					<domainOfInfluenceShortname xmlns="http://www.ech.ch/xmlns/eCH-0155/5">CTXY</domainOfInfluenceShortname>
+				</domainOfInfluence>
+				<superiorAuthority>
+					<domainOfInfluenceType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">CT</domainOfInfluenceType>
+					<domainOfInfluenceIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</domainOfInfluenceIdentification>
+					<domainOfInfluenceName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">Kanton XY ...</domainOfInfluenceName>
+					<domainOfInfluenceShortname xmlns="http://www.ech.ch/xmlns/eCH-0155/5">CTXY</domainOfInfluenceShortname>
+				</superiorAuthority>
+				<electionGroupPosition>1</electionGroupPosition>
+				<electionInformation>
+					<election>
+						<electionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">f81381de-06b1-5402-b9ec-ac51ddf94238</electionIdentification>
+						<otherIdentification>
+							<idName>idBund</idName>
+							<id>SR2027_1</id>
+						</otherIdentification>
+						<typeOfElection xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2</typeOfElection>
+						<electionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<electionDescriptionInfo>
+								<language>de</language>
+								<electionDescriptionShort>Ständeratswahl 2023</electionDescriptionShort>
+								<electionDescription>Ständeratswahl für die Amtsdauer 2023–2027, 1. Wahlgang</electionDescription>
+							</electionDescriptionInfo>
+						</electionDescription>
+						<numberOfMandates xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2</numberOfMandates>
+					</election>
+					<candidate>
+						<candidateIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">3c99209c-740c-5513-a317-5fcd33f0e90f</candidateIdentification>
+						<candidateReference xmlns="http://www.ech.ch/xmlns/eCH-0155/5">01</candidateReference>
+						<familyName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">Sample family name 01</familyName>
+						<firstName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">Sample first name 01</firstName>
+						<politicalFamilyName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">Sample political family name 01</politicalFamilyName>
+						<politicalFirstName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">Sample political first name 01</politicalFirstName>
+						<candidateText xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<candidateTextInfo>
+								<language>de</language>
+								<candidateText>political family name political first name, 11.01.1990, Nationalrat, Winterthur</candidateText>
+							</candidateTextInfo>
+						</candidateText>
+						<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-11</dateOfBirth>
+						<sex xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</sex>
+						<occupationalTitle xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<occupationalTitleInfo>
+								<language>de</language>
+								<occupationalTitle>Nationalrat</occupationalTitle>
+							</occupationalTitleInfo>
+						</occupationalTitle>
+						<dwellingAddress xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<town xmlns="http://www.ech.ch/xmlns/eCH-0010/6">Winterthur</town>
+							<swissZipCode xmlns="http://www.ech.ch/xmlns/eCH-0010/6">8400</swissZipCode>
+							<country xmlns="http://www.ech.ch/xmlns/eCH-0010/6">
+								<countryId>8100</countryId>
+								<countryIdISO2>CH</countryIdISO2>
+								<countryNameShort>Schweiz</countryNameShort>
+							</country>
+							<street xmlns="http://www.ech.ch/xmlns/eCH-0010/6">Hauptstrasse</street>
+							<houseNumber xmlns="http://www.ech.ch/xmlns/eCH-0010/6">11</houseNumber>
+						</dwellingAddress>
+						<swiss xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<origin>Heimatort ZH</origin>
+						</swiss>
+						<incumbentYesNo xmlns="http://www.ech.ch/xmlns/eCH-0155/5">false</incumbentYesNo>
+						<partyAffiliation xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<partyAffiliationInfo>
+								<language>de</language>
+								<partyAffiliationShort>EVP</partyAffiliationShort>
+								<partyAffiliationLong>Evangelische Volkspartei der Schweiz</partyAffiliationLong>
+							</partyAffiliationInfo>
+						</partyAffiliation>
+					</candidate>
+					<candidate>
+						<candidateIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">898592e0-5850-500d-8ea9-dfe480e735f4</candidateIdentification>
+						<candidateReference xmlns="http://www.ech.ch/xmlns/eCH-0155/5">02</candidateReference>
+						<familyName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">Sample family name 02</familyName>
+						<firstName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">Sample first name 02</firstName>
+						<politicalFamilyName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">Sample political family name 02</politicalFamilyName>
+						<politicalFirstName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">Sample political first name 02</politicalFirstName>
+						<candidateText xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<candidateTextInfo>
+								<language>de</language>
+								<candidateText>political family name political first name, 12.01.1990, lic. iur., Unternehmer, Stäfa, bisher</candidateText>
+							</candidateTextInfo>
+						</candidateText>
+						<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-12</dateOfBirth>
+						<sex xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</sex>
+						<occupationalTitle xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<occupationalTitleInfo>
+								<language>de</language>
+								<occupationalTitle>Unternehmer</occupationalTitle>
+							</occupationalTitleInfo>
+						</occupationalTitle>
+						<dwellingAddress xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<town xmlns="http://www.ech.ch/xmlns/eCH-0010/6">Stäfa</town>
+							<swissZipCode xmlns="http://www.ech.ch/xmlns/eCH-0010/6">8712</swissZipCode>
+							<country xmlns="http://www.ech.ch/xmlns/eCH-0010/6">
+								<countryId>8100</countryId>
+								<countryIdISO2>CH</countryIdISO2>
+								<countryNameShort>Schweiz</countryNameShort>
+							</country>
+							<street xmlns="http://www.ech.ch/xmlns/eCH-0010/6">Bahnhofstrasse</street>
+							<houseNumber xmlns="http://www.ech.ch/xmlns/eCH-0010/6">12</houseNumber>
+						</dwellingAddress>
+						<swiss xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<origin>Heimatort ZH, Heimatort BE</origin>
+						</swiss>
+						<incumbentYesNo xmlns="http://www.ech.ch/xmlns/eCH-0155/5">true</incumbentYesNo>
+						<partyAffiliation xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<partyAffiliationInfo>
+								<language>de</language>
+								<partyAffiliationShort>SP</partyAffiliationShort>
+								<partyAffiliationLong>Sozialdemokratische Partei der Schweiz</partyAffiliationLong>
+							</partyAffiliationInfo>
+						</partyAffiliation>
+					</candidate>
+					<candidate>
+						<candidateIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">825434ad-87e3-584d-b013-86619e553732</candidateIdentification>
+						<candidateReference xmlns="http://www.ech.ch/xmlns/eCH-0155/5">03</candidateReference>
+						<familyName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">Sample family name 03</familyName>
+						<firstName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">Sample first name 03</firstName>
+						<politicalFamilyName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">Sample political family name 03</politicalFamilyName>
+						<politicalFirstName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">Sample political first name 03</politicalFirstName>
+						<candidateText xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<candidateTextInfo>
+								<language>de</language>
+								<candidateText>political family name political first name, 13.01.1990, lic.phil., Gemeindepräsident, Lehrer, Zürich</candidateText>
+							</candidateTextInfo>
+						</candidateText>
+						<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-13</dateOfBirth>
+						<sex xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</sex>
+						<occupationalTitle xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<occupationalTitleInfo>
+								<language>de</language>
+								<occupationalTitle>lic.phil., Gemeindepräsident, Lehrer</occupationalTitle>
+							</occupationalTitleInfo>
+						</occupationalTitle>
+						<dwellingAddress xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<town xmlns="http://www.ech.ch/xmlns/eCH-0010/6">Zürich</town>
+							<swissZipCode xmlns="http://www.ech.ch/xmlns/eCH-0010/6">8620</swissZipCode>
+							<country xmlns="http://www.ech.ch/xmlns/eCH-0010/6">
+								<countryId>8100</countryId>
+								<countryIdISO2>CH</countryIdISO2>
+								<countryNameShort>Schweiz</countryNameShort>
+							</country>
+							<street xmlns="http://www.ech.ch/xmlns/eCH-0010/6">Dorfstrasse</street>
+							<houseNumber xmlns="http://www.ech.ch/xmlns/eCH-0010/6">13</houseNumber>
+						</dwellingAddress>
+						<swiss xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<origin>Heimatort ZH</origin>
+						</swiss>
+						<incumbentYesNo xmlns="http://www.ech.ch/xmlns/eCH-0155/5">false</incumbentYesNo>
+						<partyAffiliation xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+							<partyAffiliationInfo>
+								<language>de</language>
+								<partyAffiliationShort>Mitte</partyAffiliationShort>
+								<partyAffiliationLong>Die Mitte</partyAffiliationLong>
+							</partyAffiliationInfo>
+						</partyAffiliation>
+					</candidate>
+				</electionInformation>
+			</electionGroup>
+			<countingCircle>
+				<countingCircleId>1</countingCircleId>
+				<countingCircleName>Aeugst am Albis</countingCircleName>
+				<domainOfInfluenceType>MU</domainOfInfluenceType>
+			</countingCircle>
+			<countingCircle>
+				<countingCircleId>2</countingCircleId>
+				<countingCircleName>Affoltern am Albis</countingCircleName>
+				<domainOfInfluenceType>MU</domainOfInfluenceType>
+			</countingCircle>
+			<countingCircle>
+				<countingCircleId>9010</countingCircleId>
+				<countingCircleName>Auslandschweizer</countingCircleName>
+				<domainOfInfluenceType>MU</domainOfInfluenceType>
+			</countingCircle>
+		</electionGroupInfo>
+		<numberOfEntries>1</numberOfEntries>
+	</electionInformationDelivery>
+</delivery>

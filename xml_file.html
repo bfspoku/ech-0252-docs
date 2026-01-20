@@ -9,7 +9,7 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>XML examples</title>
+  <title>Example files</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -71,56 +71,74 @@
         <h4 id="FedElec-NatCou-Prop">Proportional Elections</h4>
         The example files provided are:
           <ul>
-            <li> An information delivery file for a fictive canton containing three municipalities.</li>
-            <li> Three result files representing consecutive deliveries, with each new file adding the results for an additional municipality. The fully counted file <code>(resultDelivery_nc_proporz_3-v1.xml)</code> also includes the element containing the elected candidates. 
+            <li> An information delivery file for a fictional canton containing three municipalities.</li>
+            <li> Three result files representing consecutive deliveries, with each new file adding the results for an additional municipality (<code>countingCircle</code>). The fully counted file <code>(eCH-0252_resultDelivery_nc_prop_3cc.xml)</code> also includes the element containing the elected candidates. 
           </ul>
         <section class = "wrapper-inner">
 
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Last update: 20.01.2026</div>
-              <div class="download-title">infoDelivery_nc_proporz-v1.xml <a href="downloads/xml/infoDelivery_proporz_whitelist_v1.xml" download class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
+              <div class="download-title">eCH-0252_infoDelivery_nc_prop.xml
+                <a href="downloads/xml/eCH-0252_infoDelivery_nc_prop.xml"
+                 download="eCH-0252_infoDelivery_nc_prop-1.0.xml"
+                class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
             </div> 
           </div>
             
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Last update: 20.01.2026</div>
-              <div class="download-title">resultDelivery_nc_proporz_1-v1.xml <a href="downloads/xml/resultDelivery_proporz_1_v1.xml" download class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
+              <div class="download-title">eCH-0252_resultDelivery_nc_prop_1cc.xml
+                <a href="downloads/xml/eCH-0252_resultDelivery_nc_prop_1cc.xml"
+                download="eCH-0252_resultDelivery_nc_prop_1cc-1.0.xml"
+                class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
             </div> 
           </div>
 
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Last update: 20.01.2026</div>
-              <div class="download-title">resultDelivery_nc_proporz_2-v1.xml <a href="downloads/xml/resultDelivery_proporz_2_v1.xml" download class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
+              <div class="download-title">eCH-0252_resultDelivery_nc_prop_2cc.xml
+                <a href="downloads/xml/eCH-0252_resultDelivery_nc_prop_2cc.xml"
+                download="eCH-0252_resultDelivery_nc_prop_2cc-1.0.xml"
+                class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
             </div> 
           </div>
 
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Last update: 20.01.2026</div>
-              <div class="download-title">resultDelivery_nc_proporz_3-v1.xml <a href="downloads/xml/resultDelivery_proporz_3_v1.xml" download class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
+              <div class="download-title">eCH-0252_resultDelivery_nc_prop_3cc.xml
+                <a href="downloads/xml/eCH-0252_resultDelivery_nc_prop_3cc.xml"
+                download="eCH-0252_resultDelivery_nc_prop_3cc-1.0.xml"
+                class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
             </div> 
           </div>
 
         </section>
 
         <h4 id="FedElec-NatCou-Maj">Majoritarian Elections</h4>
-        <p>Example files will be provided by End of January 2026.</p>
+        <p>Example files will be provided by the end of January 2026.</p>
         <section class = "wrapper-inner">
           
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Coming soon</div>
-              <div class="download-title">infoDelivery_nc_majorz-v1.xml <a download class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
+              <div class="download-title">eCH-0252_infoDelivery_nc_maj.xml
+                <a
+                download
+                class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
             </div>    
           </div>
 
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Coming soon</div>
-              <div class="download-title">resultDelivery_nc_majorz-v1.xml <a download class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
+              <div class="download-title">eCH-0252_resultDelivery_nc_maj.xml
+                <a
+                download
+                class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
             </div>    
           </div>
 
@@ -129,20 +147,47 @@
         <h3 id="FedElec-CouStat">Council of States</h3>
 
         <h4 id="FedElec-CouStat-Maj">Majoritarian Elections</h4>
-
+        For each possible round of the election, a corresponding information delivery file must be created. 
+        We provide two sets of files—one for the first round (<code>_1r</code>) and one for the second (<code>_2r</code>) round—each including an information delivery and a result delivery.
         <section class = "wrapper-inner">
           
           <div class="download-box">                
             <div class="download-content">
-              <div class="download-date">Coming soon</div>
-              <div class="download-title">infoDelivery_cs_majorz-v1.xml <a download class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
+              <div class="download-date">Last update: 20.01.2026</div>
+              <div class="download-title">eCH-0252_infoDelivery_cs_maj_1r.xml
+                <a href="downloads/xml/eCH-0252_infoDelivery_cs_maj_1r.xml" 
+                download="eCH-0252_infoDelivery_cs_maj_1r-1.0.xml"
+                class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
             </div>    
           </div>
 
           <div class="download-box">                
             <div class="download-content">
-              <div class="download-date">Coming soon</div>
-              <div class="download-title">resultDelivery_cs_majorz-v1.xml <a download class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
+              <div class="download-date">Last update: 20.01.2026</div>
+              <div class="download-title">eCH-0252_resultDelivery_cs_maj_1r.xml
+                <a href="downloads/xml/eCH-0252_resultDelivery_cs_maj_1r.xml" 
+                download="eCH-0252_resultDelivery_cs_maj_1r-1.0.xml"
+                class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
+            </div>    
+          </div>
+
+          <div class="download-box">                
+            <div class="download-content">
+              <div class="download-date">Last update: 20.01.2026</div>
+              <div class="download-title">eCH-0252_infoDelivery_cs_maj_2r.xml
+                <a href="downloads/xml/eCH-0252_infoDelivery_cs_maj_2r.xml" 
+                download="eCH-0252_infoDelivery_cs_maj_2r-1.0.xml"
+                class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
+            </div>    
+          </div>
+
+          <div class="download-box">                
+            <div class="download-content">
+              <div class="download-date">Last update: 20.01.2026</div>
+              <div class="download-title">eCH-0252_resultDelivery_cs_maj_2r.xml
+                <a href="downloads/xml/eCH-0252_resultDelivery_cs_maj_2r.xml" 
+                download="eCH-0252_resultDelivery_cs_maj_2r-1.0.xml"
+                class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
             </div>    
           </div>
 
@@ -150,13 +195,16 @@
 
 
         <h2 id="PopVote">Popular Votes</h2>
-        <p>Example files will be provided by End of February 2026.</p> 
+        <p>Example files will be provided by the end of February 2026 at the latest.</p> 
         <section class = "wrapper-inner">
           
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Coming soon</div>
-              <div class="download-title">resultDelivery_PopVote-v1.xml <a download class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
+              <div class="download-title">eCH-0252_resultDelivery_popVote.xml
+                <a
+                download
+                class="download-icon"><i class="fa-solid fa-arrow-down-long"></i></a></div>
             </div>    
           </div>
 
@@ -167,8 +215,7 @@
     <script src="js/script.js"></script>
 </main>
 
-<footer>
-  <p>© POKU - GS - BFS Model27</p>
+<footer id="footer">
 </footer>
 
 </body>

@@ -6,5 +6,5 @@ Possible values:
 "Maintenance": the status bar will appear red with a message saying that the system `Model27` is under maintenance.
 
 */
-//var systemStatus = "OK"; 
-var systemStatus = "Maintenance";
+var systemStatus = "OK"; 
+//var systemStatus = "Maintenance";

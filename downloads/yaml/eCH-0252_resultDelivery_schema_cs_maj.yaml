@@ -1,0 +1,61 @@
+delivery
+|-- deliveryHeader
+|   |-- senderId
+|   |-- messageId
+|   |-- messageType
+|   |-- sendingApplication
+|   |   |-- manufacturer
+|   |   |-- product
+|   |   └── productVersion
+|   |-- comment
+|   |-- messageDate
+|   |-- action
+|   └── testDeliveryFlag
+└── electionResultDelivery
+    |-- cantonId
+    |-- pollingDay
+    |-- electionGroupResult
+    |   |-- electionGroupIdentification
+    |   └── electionResult
+    |       |-- electionIdentification
+    |       |-- otherIdentification
+    |       |   |-- idName
+    |       |   └── id
+    |       |-- countingCircleResult
+    |       |   |-- countingCircle
+    |       |   |   |-- countingCircleId
+    |       |   |   |-- countingCircleName
+    |       |   |   └── domainOfIncluenceType
+    |       |   └── resultData
+    |       |       |-- countOfVotersInformation
+    |       |       |   └── countOfVotersTotal
+    |       |       |-- isFullyCounted
+    |       |       |-- releasedTimestamp
+    |       |       |-- lockoutTimestamp
+    |       |       |-- voterTurnout
+    |       |       |-- countOfReceivedBallots
+    |       |       |-- countOfBlankBallots
+    |       |       |-- countOfInvalidBallots
+    |       |       |-- countOfValidBallots
+    |       |       └── electionResult
+    |       |           |-- electionIdentification
+    |       |           └── majorityElection
+    |       |               |-- candidateResult
+    |       |               |    |-- candidateOrWriteInCandidate
+    |       |               |    |    └── candidateOrWriteInCandidate
+    |       |               |    |        |-- candidateIdenfication
+    |       |               |    |        └── candidateReference
+    |       |               |    └── countOfVotesTotal
+    |       |               |-- countOfInvalidVotesTotal
+    |       |               |-- countOfBlankVotesTotal
+    |       |               └── countOfIndividualVotesTotal
+    |       └── elected
+    |          └── majorityElection
+    |              |-- absoluteMajority
+    |              |-- isElectionResultComplete
+    |              └── electedCandidate
+    |                  |-- candidateOrWriteInCandidate
+    |                  |   |-- candidateIdenfication
+    |                  |   └── candidateReference
+    |                  └── electedByDraw
+    └── numberOfEntries

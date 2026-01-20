@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <delivery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ech.ch/xmlns/eCH-0252/2">
 	<deliveryHeader>
-		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">sedex sender-ID</senderId>
-		<messageId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">sedex message-ID</messageId>
+		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</senderId>
+		<messageId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</messageId>
 		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1240</messageType>
 		<sendingApplication xmlns="http://www.ech.ch/xmlns/eCH-0058/5">
 			<manufacturer>XXX Informatik AG</manufacturer>
@@ -152,6 +152,120 @@
 						<countingCircleName>Affoltern am Albis</countingCircleName>
 						<domainOfInfluenceType>MU</domainOfInfluenceType>
 					</countingCircle>
+					<resultData>
+						<countOfVotersInformation>
+							<countOfVotersTotal>7302</countOfVotersTotal>
+							<subtotalInfo>
+								<countOfVoters>3537</countOfVoters>
+								<voterType>1</voterType>
+								<sex>1</sex>
+							</subtotalInfo>
+							<subtotalInfo>
+								<countOfVoters>3765</countOfVoters>
+								<voterType>1</voterType>
+								<sex>2</sex>
+							</subtotalInfo>
+						</countOfVotersInformation>
+						<votingCardInformation>
+							<countOfVotingCardsReceivedInBallotBox>246</countOfVotingCardsReceivedInBallotBox>
+							<countOfVotingCardsReceivedPrematurelyInBallotBox>22</countOfVotingCardsReceivedPrematurelyInBallotBox>
+							<countOfVotingCardsReceivedByMail>3154</countOfVotingCardsReceivedByMail>
+							<countOfInvalidVotingCardsReceivedByMail>27</countOfInvalidVotingCardsReceivedByMail>
+						</votingCardInformation>
+						<isFullyCounted>true</isFullyCounted>
+						<releasedTimestamp>2025-05-02T12:54:00.806459Z</releasedTimestamp>
+						<lockoutTimestamp>2025-05-06T11:37:36.254013Z</lockoutTimestamp>
+						<voterTurnout>44.91</voterTurnout>
+						<countOfReceivedBallots>3279</countOfReceivedBallots>
+						<countOfBlankBallots>0</countOfBlankBallots>
+						<countOfInvalidBallots>53</countOfInvalidBallots>
+						<countOfValidBallots>3226</countOfValidBallots>
+						<electionResult>
+							<electionIdentification>9406b7d9-778c-4f03-a44b-9309c950d5a2</electionIdentification>
+							<proportionalElection>
+								<countOfChangedBallotsWithoutListDesignation>77</countOfChangedBallotsWithoutListDesignation>
+								<countOfBlankVotesOfChangedBallotsWithoutListDesignation>846</countOfBlankVotesOfChangedBallotsWithoutListDesignation>
+								<listResults>
+									<listIdentification>3677f504-4186-438a-a0a9-747e825d0995</listIdentification>
+									<listIndentureNumber>01</listIndentureNumber>
+									<countOfChangedBallots>381</countOfChangedBallots>
+									<countOfUnchangedBallots>607</countOfUnchangedBallots>
+									<countOfCandidateVotes>34585</countOfCandidateVotes>
+									<countOfAdditionalVotes>523</countOfAdditionalVotes>
+									<candidateResults>
+										<candidateIdentification>c876dab0-5ba4-4b5b-b57c-959233565cfc</candidateIdentification>
+										<candidateReferenceOnPosition>01.01</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>617</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>607</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									<candidateResults>
+										<candidateIdentification>caed0e99-44b1-4f11-9c8d-5f5afe79b49a</candidateIdentification>
+										<candidateReferenceOnPosition>01.02</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>546</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>607</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									<candidateResults>
+										<candidateIdentification>2ae8f396-6289-4f73-bc77-655723d20028</candidateIdentification>
+										<candidateReferenceOnPosition>01.03</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>490</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>607</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									</listResults>
+								<listResults>
+									<listIdentification>76506830-ffaf-4254-afbc-cbefa911014c</listIdentification>
+									<listIndentureNumber>02</listIndentureNumber>
+									<countOfChangedBallots>258</countOfChangedBallots>
+									<countOfUnchangedBallots>231</countOfUnchangedBallots>
+									<countOfCandidateVotes>16790</countOfCandidateVotes>
+									<countOfAdditionalVotes>403</countOfAdditionalVotes>
+									<candidateResults>
+										<candidateIdentification>82195151-31ff-4e57-9f15-bb4037cbcf4e</candidateIdentification>
+										<candidateReferenceOnPosition>02.01</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>501</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>231</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									<candidateResults>
+										<candidateIdentification>e48d8851-1fcb-4548-a64b-4d8782efbf7e</candidateIdentification>
+										<candidateReferenceOnPosition>02.02</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>736</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>231</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									<candidateResults>
+										<candidateIdentification>d1ba1ac6-f691-4b32-8f88-77c62dc86df3</candidateIdentification>
+										<candidateReferenceOnPosition>02.03</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>412</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>231</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									</listResults>
+								<listResults>
+									<listIdentification>2b4dab01-8b91-4239-94e9-327ae7fe2e1c</listIdentification>
+									<listIndentureNumber>03</listIndentureNumber>
+									<countOfChangedBallots>108</countOfChangedBallots>
+									<countOfUnchangedBallots>102</countOfUnchangedBallots>
+									<countOfCandidateVotes>7605</countOfCandidateVotes>
+									<countOfAdditionalVotes>291</countOfAdditionalVotes>
+									<candidateResults>
+										<candidateIdentification>db277429-e0b9-48dc-8a58-1c9ac8d95d96</candidateIdentification>
+										<candidateReferenceOnPosition>03.01</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>321</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>102</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									<candidateResults>
+										<candidateIdentification>358ce20a-ca38-4189-9d24-43fc29cc7861</candidateIdentification>
+										<candidateReferenceOnPosition>03.02</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>354</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>102</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									<candidateResults>
+										<candidateIdentification>0be06069-ee8c-4bff-b87c-09ee8934f45d</candidateIdentification>
+										<candidateReferenceOnPosition>03.03</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>223</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>102</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									</listResults>
+								</proportionalElection>
+						</electionResult>
+					</resultData>
 				</countingCircleResult>
 				<countingCircleResult>
 					<countingCircle>
@@ -160,7 +274,7 @@
 						<domainOfInfluenceType>MU</domainOfInfluenceType>
 					</countingCircle>
 				</countingCircleResult>	
-				</electionResult>
+			</electionResult>
 		</electionGroupResult>
 		<numberOfEntries>1</numberOfEntries>
 	</electionResultDelivery>

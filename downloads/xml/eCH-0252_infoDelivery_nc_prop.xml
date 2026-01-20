@@ -2,8 +2,8 @@
 <!-- bearbeitet mit XMLSpy v2025 (x64) (https://www.altova.com) von  (Bundesamt für Informatik und Telekommunikation BIT) -->
 <delivery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ech.ch/xmlns/eCH-0252/2">
 	<deliveryHeader>
-		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">sedex sender-ID</senderId>
-		<messageId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">sedex message-ID</messageId>
+		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</senderId>
+		<messageId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</messageId>
 		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1240</messageType>
 		<sendingApplication xmlns="http://www.ech.ch/xmlns/eCH-0058/5">
 			<manufacturer>XXX Informatik AG</manufacturer>
@@ -61,7 +61,7 @@
 						<candidateText xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<candidateTextInfo>
 								<language>de</language>
-								<candidateText>11.01.1990, lic. iur., Unternehmer, Zürich, bisher</candidateText>
+								<candidateText>political family name political first name, 11.01.1990, lic. iur., Unternehmer, Zürich, bisher</candidateText>
 							</candidateTextInfo>
 						</candidateText>
 						<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-11</dateOfBirth>
@@ -106,7 +106,7 @@
 						<candidateText xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<candidateTextInfo>
 								<language>de</language>
-								<candidateText>12.01.1990, lic. iur., Kleinunternehmer, Zürich, bisher</candidateText>
+								<candidateText>political family name political first name, 12.01.1990, lic. iur., Kleinunternehmer, Zürich, bisher</candidateText>
 							</candidateTextInfo>
 						</candidateText>
 						<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-12</dateOfBirth>
@@ -151,7 +151,7 @@
 						<candidateText xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<candidateTextInfo>
 								<language>de</language>
-								<candidateText>13.01.1990, lic. iur., Unternehmer, Meilen, bisher</candidateText>
+								<candidateText>political family name political first name, 13.01.1990, lic. iur., Unternehmer, Meilen, bisher</candidateText>
 							</candidateTextInfo>
 						</candidateText>
 						<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-13</dateOfBirth>
@@ -196,7 +196,7 @@
 						<candidateText xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<candidateTextInfo>
 								<language>de</language>
-								<candidateText>14.01.1990, lic. iur., Gymnasiallehrerin, Winterthur, bisher</candidateText>
+								<candidateText>political family name political first name, 14.01.1990, lic. iur., Gymnasiallehrerin, Winterthur, bisher</candidateText>
 							</candidateTextInfo>
 						</candidateText>
 						<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-14</dateOfBirth>
@@ -241,7 +241,7 @@
 						<candidateText xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<candidateTextInfo>
 								<language>de</language>
-								<candidateText>15.01.1990, lic. iur., Biologin, Zürich, bisher</candidateText>
+								<candidateText>political family name political first name, 15.01.1990, lic. iur., Biologin, Zürich, bisher</candidateText>
 							</candidateTextInfo>
 						</candidateText>
 						<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-15</dateOfBirth>
@@ -286,7 +286,7 @@
 						<candidateText xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<candidateTextInfo>
 								<language>de</language>
-								<candidateText>16.01.1990, lic. iur., Sekundarlehrerin, Kloten, bisher</candidateText>
+								<candidateText>political family name political first name, 16.01.1990, lic. iur., Sekundarlehrerin, Kloten, bisher</candidateText>
 							</candidateTextInfo>
 						</candidateText>
 						<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-16</dateOfBirth>
@@ -331,7 +331,7 @@
 						<candidateText xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<candidateTextInfo>
 								<language>de</language>
-								<candidateText>17.01.1990, lic. iur., Soziologin, Hinwil, bisher</candidateText>
+								<candidateText>political family name political first name, 17.01.1990, lic. iur., Soziologin, Hinwil, bisher</candidateText>
 							</candidateTextInfo>
 						</candidateText>
 						<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-17</dateOfBirth>
@@ -376,7 +376,7 @@
 						<candidateText xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<candidateTextInfo>
 								<language>de</language>
-								<candidateText>18.01.1990, lic. iur., Kleinunternehmer, Zürich, bisher</candidateText>
+								<candidateText>political family name political first name, 18.01.1990, lic. iur., Kleinunternehmer, Zürich, bisher</candidateText>
 							</candidateTextInfo>
 						</candidateText>
 						<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-18</dateOfBirth>
@@ -421,7 +421,7 @@
 						<candidateText xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<candidateTextInfo>
 								<language>de</language>
-								<candidateText>19.01.1990, lic. iur., Professorin, Zürich, bisher</candidateText>
+								<candidateText>political family name political first name, 19.01.1990, lic. iur., Professorin, Zürich, bisher</candidateText>
 							</candidateTextInfo>
 						</candidateText>
 						<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-19</dateOfBirth>
@@ -466,9 +466,8 @@
 								<listDescription>SVP Schweizerische Volkspartei</listDescription>
 							</listDescriptionInfo>
 						</listDescription>
-						<isEmptyList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">false</isEmptyList>
 						<listOrderOfPrecedence xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</listOrderOfPrecedence>
-						<totalPositionsOnList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">36</totalPositionsOnList>
+						<totalPositionsOnList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">3</totalPositionsOnList>
 						<candidatePosition xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<positionOnList>1</positionOnList>
 							<candidateReferenceOnPosition>01.01</candidateReferenceOnPosition>
@@ -476,7 +475,7 @@
 							<candidateTextOnPosition>
 								<candidateTextInfo>
 									<language>de</language>
-									<candidateText>12.10.1972, lic. iur., Unternehmer, Zürich, bisher</candidateText>
+									<candidateText>political family name political first name, 11.01.1990, lic. iur., Unternehmer, Zürich, bisher</candidateText>
 								</candidateTextInfo>
 							</candidateTextOnPosition>
 						</candidatePosition>
@@ -487,7 +486,7 @@
 							<candidateTextOnPosition>
 								<candidateTextInfo>
 									<language>de</language>
-									<candidateText>12.10.1961, Zürich, bisher</candidateText>
+									<candidateText>political family name political first name, 12.01.1990, lic. iur., Kleinunternehmer, Zürich, bisher</candidateText>
 								</candidateTextInfo>
 							</candidateTextOnPosition>
 						</candidatePosition>
@@ -498,7 +497,7 @@
 							<candidateTextOnPosition>
 								<candidateTextInfo>
 									<language>de</language>
-									<candidateText>23.03.1966, Meilen, bisher</candidateText>
+									<candidateText>political family name political first name, 13.01.1990, lic. iur., Unternehmer, Meilen, bisher</candidateText>
 								</candidateTextInfo>
 							</candidateTextOnPosition>
 						</candidatePosition>
@@ -514,9 +513,8 @@
 								<listDescription>SP – Sozialdemokratische Partei</listDescription>
 							</listDescriptionInfo>
 						</listDescription>
-						<isEmptyList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">false</isEmptyList>
 						<listOrderOfPrecedence xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2</listOrderOfPrecedence>
-						<totalPositionsOnList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">36</totalPositionsOnList>
+						<totalPositionsOnList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">3</totalPositionsOnList>
 						<candidatePosition xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<positionOnList>1</positionOnList>
 							<candidateReferenceOnPosition>02.01</candidateReferenceOnPosition>
@@ -524,7 +522,7 @@
 							<candidateTextOnPosition>
 								<candidateTextInfo>
 									<language>de</language>
-									<candidateText>09.11.1987, Winterthur, bisher</candidateText>
+									<candidateText>political family name political first name, 14.01.1990, lic. iur., Gymnasiallehrerin, Winterthur, bisher</candidateText>
 								</candidateTextInfo>
 							</candidateTextOnPosition>
 						</candidatePosition>
@@ -535,7 +533,7 @@
 							<candidateTextOnPosition>
 								<candidateTextInfo>
 									<language>de</language>
-									<candidateText>12.11.1961, Zürich, bisher</candidateText>
+									<candidateText>political family name political first name, 15.01.1990, lic. iur., Biologin, Zürich, bisher</candidateText>
 								</candidateTextInfo>
 							</candidateTextOnPosition>
 						</candidatePosition>
@@ -546,7 +544,7 @@
 							<candidateTextOnPosition>
 								<candidateTextInfo>
 									<language>de</language>
-									<candidateText>29.08.1968, Kloten, bisher</candidateText>
+									<candidateText>political family name political first name, 16.01.1990, lic. iur., Sekundarlehrerin, Kloten, bisher</candidateText>
 								</candidateTextInfo>
 							</candidateTextOnPosition>
 						</candidatePosition>
@@ -562,9 +560,8 @@
 								<listDescription>GRÜNE</listDescription>
 							</listDescriptionInfo>
 						</listDescription>
-						<isEmptyList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">false</isEmptyList>
 						<listOrderOfPrecedence xmlns="http://www.ech.ch/xmlns/eCH-0155/5">3</listOrderOfPrecedence>
-						<totalPositionsOnList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">36</totalPositionsOnList>
+						<totalPositionsOnList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">3</totalPositionsOnList>
 						<candidatePosition xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<positionOnList>1</positionOnList>
 							<candidateReferenceOnPosition>03.01</candidateReferenceOnPosition>
@@ -572,7 +569,7 @@
 							<candidateTextOnPosition>
 								<candidateTextInfo>
 									<language>de</language>
-									<candidateText>14.11.1980, Hinwil, bisher</candidateText>
+									<candidateText>political family name political first name, 17.01.1990, lic. iur., Soziologin, Hinwil, bisher</candidateText>
 								</candidateTextInfo>
 							</candidateTextOnPosition>
 						</candidatePosition>
@@ -583,7 +580,7 @@
 							<candidateTextOnPosition>
 								<candidateTextInfo>
 									<language>de</language>
-									<candidateText>12.02.1972, Zürich, bisher</candidateText>
+									<candidateText>political family name political first name, 18.01.1990, lic. iur., Kleinunternehmer, Zürich, bisher</candidateText>
 								</candidateTextInfo>
 							</candidateTextOnPosition>
 						</candidatePosition>
@@ -594,235 +591,23 @@
 							<candidateTextOnPosition>
 								<candidateTextInfo>
 									<language>de</language>
-									<candidateText>12.10.1959, Zürich, bisher</candidateText>
+									<candidateText>political family name political first name, 19.01.1990, lic. iur., Professorin, Zürich, bisher</candidateText>
 								</candidateTextInfo>
 							</candidateTextOnPosition>
 						</candidatePosition>
 						<emptyListPositions xmlns="http://www.ech.ch/xmlns/eCH-0155/5">0</emptyListPositions>
 					</list>
 					<listUnion>
-						<listUnionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">440998a3-bd2f-41e8-89ca-01e4075dddc8</listUnionIdentification>
-						<listUnionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
-							<listUnionDescriptionInfo>
-								<language>de</language>
-								<listUnionDescription>SVP, FDP, JFZH, Junge SVP, SVP Ü55, SVP Second, SVP KMU</listUnionDescription>
-							</listUnionDescriptionInfo>
-						</listUnionDescription>
-						<listUnionType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</listUnionType>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">07a0a2ee-8c0d-4f1a-8db0-a717e334a568</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">344b208e-a7eb-4211-8b5b-bd111ad982c6</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">3677f504-4186-438a-a0a9-747e825d0995</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">40ad16ee-18a1-41e5-aeb7-a1a648cd099d</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">414a7ef1-f266-4d71-9eb0-938f1ee2ba15</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">bb8c734a-b274-493f-9817-9ace0f5df427</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">f2933ee8-20e1-4094-9007-4b406c35f005</referencedList>
-					</listUnion>
-					<listUnion>
-						<listUnionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">4c3e95de-efb9-4e50-8511-d72184820f25</listUnionIdentification>
-						<listUnionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
-							<listUnionDescriptionInfo>
-								<language>de</language>
-								<listUnionDescription>SVP, Junge SVP, SVP Ü55, SVP Second, SVP KMU</listUnionDescription>
-							</listUnionDescriptionInfo>
-						</listUnionDescription>
-						<listUnionType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2</listUnionType>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">344b208e-a7eb-4211-8b5b-bd111ad982c6</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">3677f504-4186-438a-a0a9-747e825d0995</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">40ad16ee-18a1-41e5-aeb7-a1a648cd099d</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">bb8c734a-b274-493f-9817-9ace0f5df427</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">f2933ee8-20e1-4094-9007-4b406c35f005</referencedList>
-						<referencedListUnion xmlns="http://www.ech.ch/xmlns/eCH-0155/5">440998a3-bd2f-41e8-89ca-01e4075dddc8</referencedListUnion>
-					</listUnion>
-					<listUnion>
 						<listUnionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">076b9ebd-57a5-4397-b686-97c49b406f94</listUnionIdentification>
 						<listUnionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<listUnionDescriptionInfo>
 								<language>de</language>
-								<listUnionDescription>SP, GRÜNE, AL, JG, PdA, G LGBTIQ+, JUSO, SP60+, SP Queer, GRÜNE NW</listUnionDescription>
+								<listUnionDescription>SP, GRÜNE</listUnionDescription>
 							</listUnionDescriptionInfo>
 						</listUnionDescription>
 						<listUnionType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</listUnionType>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">006ef5da-d00c-4541-9a5e-8fb2863c3b0e</referencedList>
 						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2b4dab01-8b91-4239-94e9-327ae7fe2e1c</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">3cd190e6-603b-400d-bb61-d90af89c1326</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">5056499f-0984-4ed2-9f6e-1246bc2a3fcb</referencedList>
 						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">76506830-ffaf-4254-afbc-cbefa911014c</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">a43ba10b-2e58-497b-ae3c-cd8d7cfd682a</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">a9ef5f1e-466b-401e-a34a-1d5db647bae3</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">a9fa473c-88e1-48eb-9d1e-cfdb3ac9075a</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">b9d76c91-29bd-47de-b1e0-b3e7f0f799d9</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">f6bc5470-b223-480a-b305-e01c2ed4ecd8</referencedList>
-					</listUnion>
-					<listUnion>
-						<listUnionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">ac6af1c8-39f7-478a-9ce9-334f16bb45bd</listUnionIdentification>
-						<listUnionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
-							<listUnionDescriptionInfo>
-								<language>de</language>
-								<listUnionDescription>FDP, JFZH</listUnionDescription>
-							</listUnionDescriptionInfo>
-						</listUnionDescription>
-						<listUnionType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2</listUnionType>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">07a0a2ee-8c0d-4f1a-8db0-a717e334a568</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">414a7ef1-f266-4d71-9eb0-938f1ee2ba15</referencedList>
-						<referencedListUnion xmlns="http://www.ech.ch/xmlns/eCH-0155/5">440998a3-bd2f-41e8-89ca-01e4075dddc8</referencedListUnion>
-					</listUnion>
-					<listUnion>
-						<listUnionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">7f7b86f6-9472-4ca3-a0d9-0077775abf6f</listUnionIdentification>
-						<listUnionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
-							<listUnionDescriptionInfo>
-								<language>de</language>
-								<listUnionDescription>GLP, Die Mitte, senior GLP, GLP Ges, JGLP, GLP Wir, Mitte–AWG, Mitte–60+, DM Frauen, DJM S-W, DJM N-O</listUnionDescription>
-							</listUnionDescriptionInfo>
-						</listUnionDescription>
-						<listUnionType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</listUnionType>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">371f619a-d72f-4e80-9a6b-99a1d66bfce4</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">482871ec-0914-44a2-96c9-ec9eca23bcee</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">4e6a19d0-8b51-4afe-8c3a-1f520dc4c3e0</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">7aefc86d-33fc-4ac4-a953-b25db02750c4</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">89445694-e2ca-4dd0-b8dd-7adcbc49557a</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">921d6608-4a34-42cc-bca8-245c949b5234</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">9cf86076-f335-47f2-a9b9-65cb671e6310</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">b22ce5a4-93ac-4a4a-9ef7-146a7bbe1783</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">e6f8f1d4-2119-4fe1-846d-70fad00a5e17</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">edfc779f-91c0-408e-abc5-6acd6627ec92</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">f4f4cbc2-7858-40cb-97f7-81372c13d1bf</referencedList>
-					</listUnion>
-					<listUnion>
-						<listUnionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">df21ecf9-aa8f-4073-b31e-d87acd0d6882</listUnionIdentification>
-						<listUnionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
-							<listUnionDescriptionInfo>
-								<language>de</language>
-								<listUnionDescription>SP, JUSO, SP60+, SP Queer</listUnionDescription>
-							</listUnionDescriptionInfo>
-						</listUnionDescription>
-						<listUnionType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2</listUnionType>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">3cd190e6-603b-400d-bb61-d90af89c1326</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">76506830-ffaf-4254-afbc-cbefa911014c</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">a43ba10b-2e58-497b-ae3c-cd8d7cfd682a</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">a9ef5f1e-466b-401e-a34a-1d5db647bae3</referencedList>
-						<referencedListUnion xmlns="http://www.ech.ch/xmlns/eCH-0155/5">076b9ebd-57a5-4397-b686-97c49b406f94</referencedListUnion>
-					</listUnion>
-					<listUnion>
-						<listUnionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">0f64a3f8-3d25-41d0-8542-435fee454bba</listUnionIdentification>
-						<listUnionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
-							<listUnionDescriptionInfo>
-								<language>de</language>
-								<listUnionDescription>EVP, Frauen EVP, JEVP, PfL, EUF, GAMFA, WIM, DLA – PPS, zh.digital</listUnionDescription>
-							</listUnionDescriptionInfo>
-						</listUnionDescription>
-						<listUnionType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</listUnionType>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">0609de76-213b-4e7b-b66e-35ebea37f5da</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">0f2659b4-5693-4386-bd53-8d034e920e5d</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">254f022b-5745-44d1-8633-4e250b5d5fc0</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">3739c0d5-960a-4ef8-90d8-2e6c72ab7fc2</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">50d01b1c-46af-45d4-b615-496f48753c93</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">60edf3e5-c95b-4a64-9aaa-955752767a3d</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">8e6d54bd-1553-4363-b1ed-14cf7e3e4509</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">9253bfcc-6d13-4e34-815f-82153fe3b64b</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">c22aab58-f010-49ee-b822-d9c331acba38</referencedList>
-					</listUnion>
-					<listUnion>
-						<listUnionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">b2f1038e-5122-429b-8905-4b8ec706cc62</listUnionIdentification>
-						<listUnionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
-							<listUnionDescriptionInfo>
-								<language>de</language>
-								<listUnionDescription>GRÜNE, JG, G LGBTIQ+, GRÜNE NW</listUnionDescription>
-							</listUnionDescriptionInfo>
-						</listUnionDescription>
-						<listUnionType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2</listUnionType>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">006ef5da-d00c-4541-9a5e-8fb2863c3b0e</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2b4dab01-8b91-4239-94e9-327ae7fe2e1c</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">5056499f-0984-4ed2-9f6e-1246bc2a3fcb</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">a9fa473c-88e1-48eb-9d1e-cfdb3ac9075a</referencedList>
-						<referencedListUnion xmlns="http://www.ech.ch/xmlns/eCH-0155/5">076b9ebd-57a5-4397-b686-97c49b406f94</referencedListUnion>
-					</listUnion>
-					<listUnion>
-						<listUnionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">3b673676-7885-4e23-976d-97f981f75f26</listUnionIdentification>
-						<listUnionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
-							<listUnionDescriptionInfo>
-								<language>de</language>
-								<listUnionDescription>GLP, senior GLP, GLP Ges, JGLP, GLP Wir</listUnionDescription>
-							</listUnionDescriptionInfo>
-						</listUnionDescription>
-						<listUnionType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2</listUnionType>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">371f619a-d72f-4e80-9a6b-99a1d66bfce4</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">482871ec-0914-44a2-96c9-ec9eca23bcee</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">b22ce5a4-93ac-4a4a-9ef7-146a7bbe1783</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">edfc779f-91c0-408e-abc5-6acd6627ec92</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">f4f4cbc2-7858-40cb-97f7-81372c13d1bf</referencedList>
-						<referencedListUnion xmlns="http://www.ech.ch/xmlns/eCH-0155/5">7f7b86f6-9472-4ca3-a0d9-0077775abf6f</referencedListUnion>
-					</listUnion>
-					<listUnion>
-						<listUnionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">d6bed558-3f63-4f2d-9fc3-fe3fd40029dd</listUnionIdentification>
-						<listUnionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
-							<listUnionDescriptionInfo>
-								<language>de</language>
-								<listUnionDescription>EDU, MASS-VOLL!, JEDU, SD, AuF ZH</listUnionDescription>
-							</listUnionDescriptionInfo>
-						</listUnionDescription>
-						<listUnionType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</listUnionType>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">01af9a4d-1d82-42a3-b86c-bc7cd0890f5e</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">4382d0e5-ecd5-4cee-9ef4-1c3641a0c227</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">cbd984cb-b2c9-4b2e-8961-7c247598a19a</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">f13bde17-d76a-4e86-9df5-3bdaa06f81e8</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">fe38836d-2b95-4db0-9373-3b84dfe659c5</referencedList>
-					</listUnion>
-					<listUnion>
-						<listUnionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">cd51099a-6533-4a16-995a-50cb97554012</listUnionIdentification>
-						<listUnionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
-							<listUnionDescriptionInfo>
-								<language>de</language>
-								<listUnionDescription>Die Mitte, Mitte–AWG, Mitte–60+, DM Frauen, DJM S-W, DJM N-O</listUnionDescription>
-							</listUnionDescriptionInfo>
-						</listUnionDescription>
-						<listUnionType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2</listUnionType>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">4e6a19d0-8b51-4afe-8c3a-1f520dc4c3e0</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">7aefc86d-33fc-4ac4-a953-b25db02750c4</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">89445694-e2ca-4dd0-b8dd-7adcbc49557a</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">921d6608-4a34-42cc-bca8-245c949b5234</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">9cf86076-f335-47f2-a9b9-65cb671e6310</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">e6f8f1d4-2119-4fe1-846d-70fad00a5e17</referencedList>
-						<referencedListUnion xmlns="http://www.ech.ch/xmlns/eCH-0155/5">7f7b86f6-9472-4ca3-a0d9-0077775abf6f</referencedListUnion>
-					</listUnion>
-					<listUnion>
-						<listUnionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">c4411bf1-2a08-442e-b440-9e35666d2a0c</listUnionIdentification>
-						<listUnionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
-							<listUnionDescriptionInfo>
-								<language>de</language>
-								<listUnionDescription>EVP, Frauen EVP, JEVP</listUnionDescription>
-							</listUnionDescriptionInfo>
-						</listUnionDescription>
-						<listUnionType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2</listUnionType>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">0609de76-213b-4e7b-b66e-35ebea37f5da</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">50d01b1c-46af-45d4-b615-496f48753c93</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">8e6d54bd-1553-4363-b1ed-14cf7e3e4509</referencedList>
-						<referencedListUnion xmlns="http://www.ech.ch/xmlns/eCH-0155/5">0f64a3f8-3d25-41d0-8542-435fee454bba</referencedListUnion>
-					</listUnion>
-					<listUnion>
-						<listUnionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">c71cb02a-c890-4adb-a95f-819c93f57767</listUnionIdentification>
-						<listUnionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
-							<listUnionDescriptionInfo>
-								<language>de</language>
-								<listUnionDescription>DLA – PPS, zh.digital</listUnionDescription>
-							</listUnionDescriptionInfo>
-						</listUnionDescription>
-						<listUnionType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2</listUnionType>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">3739c0d5-960a-4ef8-90d8-2e6c72ab7fc2</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">60edf3e5-c95b-4a64-9aaa-955752767a3d</referencedList>
-						<referencedListUnion xmlns="http://www.ech.ch/xmlns/eCH-0155/5">0f64a3f8-3d25-41d0-8542-435fee454bba</referencedListUnion>
-					</listUnion>
-					<listUnion>
-						<listUnionIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">a8d5e7ef-a9a5-4d89-ae6a-56f51c20759d</listUnionIdentification>
-						<listUnionDescription xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
-							<listUnionDescriptionInfo>
-								<language>de</language>
-								<listUnionDescription>EDU, JEDU</listUnionDescription>
-							</listUnionDescriptionInfo>
-						</listUnionDescription>
-						<listUnionType xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2</listUnionType>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">4382d0e5-ecd5-4cee-9ef4-1c3641a0c227</referencedList>
-						<referencedList xmlns="http://www.ech.ch/xmlns/eCH-0155/5">cbd984cb-b2c9-4b2e-8961-7c247598a19a</referencedList>
-						<referencedListUnion xmlns="http://www.ech.ch/xmlns/eCH-0155/5">d6bed558-3f63-4f2d-9fc3-fe3fd40029dd</referencedListUnion>
 					</listUnion>
 				</electionInformation>
 			</electionGroup>

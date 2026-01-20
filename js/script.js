@@ -31,8 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (systemStatus === "Maintenance") {
     banner.classList.add('status-maintenance');
-    //messageEl.textContent = "The Swiss Election ETL system is currently under maintenance. Designated contact persons will be notified once the server becomes active.";
-    messageEl.textContent = "The Swiss Election ETL system will be live soon!";
+    messageEl.innerHTML = 'The Swiss Elections ETL system is currently undergoing maintenance. Designated contacts will be notified as soon as the server is back online. <i class="fa-regular fa-circle-question" title="A platform that Extracts, Transforms, and Loads (ETL) eCH-0252 Swiss Elections data into a structured format for analysis and reporting"></i>';
   } else {
     banner.classList.add('status-ok');
 
@@ -49,6 +48,14 @@ document.addEventListener('DOMContentLoaded', () => {
       second: '2-digit'
     });
 
-    messageEl.textContent = `The Swiss Election ETL system is up and ready to process data - ${date} ${time}`;
+    messageEl.innerHTML = `The Swiss Election ETL system is up and ready to process data <i class="fa-regular fa-circle-question" title="A platform that Extracts, Transforms, and Loads (ETL) eCH-0252 Swiss Elections data into a structured format for analysis and reporting"></i> - ${date} ${time}`;
   }
+});
+
+
+// ========================================================================================================================
+// Footer
+document.addEventListener('DOMContentLoaded', () => {
+  const messageEl = document.getElementById('footer');
+  messageEl.innerHTML = "<p> &copy; 2026 FSO-POKU. All rights reserved.<p>"
 });

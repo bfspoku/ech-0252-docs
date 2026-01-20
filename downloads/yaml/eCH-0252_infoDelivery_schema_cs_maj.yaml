@@ -1,0 +1,81 @@
+delivery
+|-- deliveryHeader
+|    |-- senderId
+|    |-- messageId
+|    |-- messageType
+|    |-- sendingApplication
+|    |    |-- manufacturer
+|    |    |-- product
+|    |    └── productVersion
+|    |-- comment
+|    |-- messageDate
+|    |-- action
+|    └── testDeliveryFlag
+└── electionInformationDelivery
+    |-- cantonId
+    |-- pollingDay
+    |-- electionGroupInfo
+    |    |-- electionGroup
+    |    |    |-- electionGroupIdentification
+    |    |    |-- domainOfInfluence
+    |    |    |    |-- domainOfIncluenceType
+    |    |    |    |-- domainOfInfluenceIdentification
+    |    |    |    |-- domainOfInfluenceName
+    |    |    |    └── domainOfIncluenceShortName
+    |    |    |-- SuperiorAuthority
+    |    |    |    |-- domainOfIncluenceType
+    |    |    |    |-- domainOfInfluenceIdentification
+    |    |    |    |-- domainOfInfluenceName
+    |    |    |    └── domainOfIncluenceShortName
+    |    |    |-- electionGroupPosition
+    |    |    └── electionInformation
+    |    |        |-- election
+    |    |        |    |-- electionIdentification
+    |    |        |    |-- otherIdentification
+    |    |        |    |    |-- idName
+    |    |        |    |    └── id
+    |    |        |    |-- typeOfElection
+    |    |        |    |-- electionDescription
+    |    |        |    |    └── electionDescriptionInfo
+    |    |        |    |        |-- language
+    |    |        |    |        |-- electionDescriptionShort
+    |    |        |    |        └── electionDescription
+    |    |        |    └── numberOfMandates
+    |    |        └── candidate
+    |    |            |-- candidateIdentification
+    |    |            |-- candidateReference
+    |    |            |-- familyName
+    |    |            |-- firstName
+    |    |            |-- politicalFamilyName
+    |    |            |-- politicalFirstName
+    |    |            |-- candidateText
+    |    |            |    └── candidateTextInfo
+    |    |            |        |-- language 
+    |    |            |        └── candidateText 
+    |    |            |-- dateOfBirth
+    |    |            |-- sex
+    |    |            |-- occupationalTitle
+    |    |            |    └── occupationalTitleInfo
+    |    |            |        |-- language
+    |    |            |        └── occupationalTitle
+    |    |            |-- dwellingAdress
+    |    |            |    |-- street
+    |    |            |    |-- houseNumber
+    |    |            |    |-- town
+    |    |            |    |-- swissZipCode
+    |    |            |    └── country
+    |    |            |        |-- countryId
+    |    |            |        |-- countryIdISO2
+    |    |            |        └── countryNameShort
+    |    |            |-- title
+    |    |            |-- incumbentYesNo
+    |    |            └── partyAffiliation
+    |    |                └── partyAffiliationInfo
+    |    |                    |-- language
+    |    |                    |-- partyAffiliationShort
+    |    |                    └── partyAffiliationLong
+    |    └── countingCircle
+    |        |-- countingCircleId
+    |        |-- countingCircleName
+    |        └── domainOfInfluenceType
+    └── numberOfEntries

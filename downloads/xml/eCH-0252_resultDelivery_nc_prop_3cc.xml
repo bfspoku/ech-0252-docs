@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <delivery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ech.ch/xmlns/eCH-0252/2">
 	<deliveryHeader>
-		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">sedex sender-ID</senderId>
-		<messageId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">sedex message-ID</messageId>
+		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</senderId>
+		<messageId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</messageId>
 		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1240</messageType>
 		<sendingApplication xmlns="http://www.ech.ch/xmlns/eCH-0058/5">
 			<manufacturer>XXX Informatik AG</manufacturer>
