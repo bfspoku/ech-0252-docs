@@ -479,3 +479,41 @@ footer p {
   color: #069;
   transform: translateX(5px);
 }
+
+.file-organisation {
+  padding-left: 1.2rem;
+  list-style-type: square;
+}
+
+.file-organisation li::marker {
+  color: #2f4356;
+}
+
+.file-organisation a {
+  text-decoration: none;
+  color:#069;
+}
+
+.file-organisation a:visited {     /* colore che vuoi */
+  text-decoration: none;
+}
+
+.file-organisation a:hover {
+  font-weight: bold;
+}
+
+.file-organisation ul li::marker {
+  color:  #2f4356;
+}
+
+.file-organisation ul {
+  list-style-type: square;
+}
+
+.file-organisation ul ul {
+  list-style-type: disc;
+}
+
+.file-organisation ul ul li::marker {
+  color: #2f4356;
+}

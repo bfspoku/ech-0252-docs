@@ -30,38 +30,50 @@
   </div>
 </div>
 
+<!-- nav-bar is automatically filled up by js -->
 <div id="nav-bar"></div>
 
+<!-- status-banner and status-massage are automatically modified by js -->
 <div id="status-banner" class="status-banner">
   <span id="status-message"></span>
 </div>
 
 <main>
     <section class = "wrapper"> 
-        
-      <!-- CARDS -->
+      
       <section class="cards">
-          <div class="card">
-            <a class="card-link" href="guide.html">
-              <i class="fas fa-file" style="color:#E53E3E;"></i> PDF
-              <h3>Implementation Guide</h3>
-              <p>We provide a comprehensive guide for implementing a ech-0252 XML-based format for Swiss Federal Elections and Popular Vote.</p>
-              <p class="card-arrow"><i class="arrow">→</i> </p>
-            </a>
-          </div>
-
-          <div class="card">
-            <a class="card-link" href="yaml_file.html">
-              <i class="fas fa-file" style="color:#2B6CB0;"></i> YAML
-              <h3>Strucural</h3>
-              <p>A collection of YAML files is available, grouped by Election type and system. Each file contains a minimal XML structure, designed to serve as a simple and structured starting point for development.</p>
-              <p class="card-arrow"><i class="arrow">→</i> </p>
-            </a>
+        <div class="card">
+          <a class="card-link">
+            <i class="fa-solid fa-circle-exclamation" style="color: #069;"></i> Registration of your Sedex ID
+            <p>Communicate us by email the <strong>Sedex ID</strong>  of the Sedex client used to transmit federal elections data. This ID will be registered in the federal system and explicitly <em>authorised for the message type 1240</em></p>
+            <p>Email: poku@bfs.admin.ch</p>
+          </a>
         </div>
+      </section>
+      <br>
+      <section class="cards">
+        <div class="card">
+          <a class="card-link" href="guide.html">
+            <i class="fas fa-file" style="color:#E53E3E;"></i> PDF
+            <h3>2027 Implementation Guide</h3>
+            <p>We provide a comprehensive guide for implementing a ech-0252 XML-based format for Swiss Federal Elections and Popular Vote.</p>
+            <p class="card-arrow"><i class="arrow">→</i> </p>
+          </a>
+        </div>
+
+        <div class="card">
+          <a class="card-link" href="yaml_file.html">
+            <i class="fas fa-file" style="color:#2B6CB0;"></i> YAML
+            <h3>YAML Structural Representation</h3>
+            <p>A collection of YAML files is available, grouped by Election type and system. Each file contains the XML expected structure, designed to serve as a simple and structured starting point for development.</p>
+            <p class="card-arrow"><i class="arrow">→</i> </p>
+          </a>
+        </div>
+
         <div class="card">
           <a class="card-link" href="xml_file.html">
             <i class="fas fa-file" style="color:#D69E2E;"></i> XML
-            <h3>Delivery examples</h3>
+            <h3>XML Delivery examples</h3>
             <p>A set of example XML files is provided, grouped by Election type and system, for both information and results deliveries.</p>
             <p class="card-arrow"><i class="arrow">→</i> </p>
           </a>
@@ -69,14 +81,14 @@
       </section>
 
       <section class="information">
-          <div class="divider"></div>
+        <div class="divider"></div>
 
-          <h2>Latest News and Updates</h2>
-
-            <ul id="updates-home" class="updates"></ul>
-            <a href="news.html" class="arrow-link">
-              <p>See all <i class="arrow">→</i> </p>
-            </a>
+        <h2>Latest News and Updates</h2>
+        <!-- updates-home is automatically filled up by js -->
+        <ul id="updates-home" class="updates"></ul>
+        <a href="news.html" class="arrow-link">
+          <p>See all <i class="arrow">→</i> </p>
+        </a>
  
       </section>
     

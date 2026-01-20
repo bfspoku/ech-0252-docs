@@ -40,10 +40,33 @@
     <section class = "wrapper"> 
         <h1>Delivery Examples</h1>
         <p>This page provides downloadable XML files that serve as fully valid examples of the specified format. These sample files are intended to illustrate correct structure, element usage, and formatting, offering a practical reference for developers during implementation. You can use them as templates, for testing purposes, or as a guide to ensure your own XML files comply with the required standards.</p>
+        <p>The supporting files are first organized by field of application (Federal Election or Popular Vote). Federal Election files are then further divided by type of election and electoral system.</p>
+        <p>Use the table of contents below to quickly navigate to the different sections of this page.</p>
 
-        <h2>Federal Election</h2>
+        <ul class="file-organisation">
+          <li>
+            <a href="#FedElec">Federal Election</a>
+            <ul>
+              <li> <a href="#FedElec-NatCou">National Council</a>
+                <ul>
+                  <li> <a href="#FedElec-NatCou-Prop">Proportional Election</a></li>
+                  <li> <a href="#FedElec-NatCou-Maj">Majoritarian Election</a></li>
+                </ul>
+              </li>
+              <li><a href="#FedElec-CouStat">Council of States</a>
+                <ul>
+                  <li> <a href="#FedElec-CouStat-Maj">Majoritarian Election</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#PopVote">Popular Votes</a></li>
+        </ul>
 
-        <h3>Proportional Election</h3>
+        <h2 id="FedElec">Federal Election</h2>
+
+        <h3 id="FedElec-NatCou">National Council</h3>
+        <h4 id="FedElec-NatCou-Prop">Proportional Election</h4>
         The example files provided are:
           <ul>
             <li> An info delivery file for a mock canton containing three municipalities.</li>
@@ -54,60 +77,83 @@
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Last update: 20.01.2026</div>
-              <div class="download-title">infoDelivery_proporz-v1.xml <a href="downloads/xml/infoDelivery_proporz_whitelist_v1.xml" download class="download-icon">⭳</a></div>
+              <div class="download-title">infoDelivery_nc_proporz-v1.xml <a href="downloads/xml/infoDelivery_proporz_whitelist_v1.xml" download class="download-icon">⭳</a></div>
             </div> 
           </div>
             
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Last update: 20.01.2026</div>
-              <div class="download-title">resultDelivery_proporz_1-v1.xml <a href="downloads/xml/resultDelivery_proporz_1_v1.xml" download class="download-icon">⭳</a></div>
+              <div class="download-title">resultDelivery_nc_proporz_1-v1.xml <a href="downloads/xml/resultDelivery_proporz_1_v1.xml" download class="download-icon">⭳</a></div>
             </div> 
           </div>
 
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Last update: 20.01.2026</div>
-              <div class="download-title">resultDelivery_proporz_2-v1.xml <a href="downloads/xml/resultDelivery_proporz_2_v1.xml" download class="download-icon">⭳</a></div>
+              <div class="download-title">resultDelivery_nc_proporz_2-v1.xml <a href="downloads/xml/resultDelivery_proporz_2_v1.xml" download class="download-icon">⭳</a></div>
             </div> 
           </div>
 
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Last update: 20.01.2026</div>
-              <div class="download-title">resultDelivery_proporz_3-v1.xml <a href="downloads/xml/resultDelivery_proporz_3_v1.xml" download class="download-icon">⭳</a></div>
+              <div class="download-title">resultDelivery_nc_proporz_3-v1.xml <a href="downloads/xml/resultDelivery_proporz_3_v1.xml" download class="download-icon">⭳</a></div>
             </div> 
           </div>
 
         </section>
 
-        <h3>Majoritarian Election</h3>
+        <h4 id="FedElec-NatCou-Maj">Majoritarian Election</h4>
 
         <section class = "wrapper-inner">
           
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Coming soon</div>
-              <div class="download-title">infoDelivery_majorz-v1.xml <a class="download-icon">⭳</a></div>
+              <div class="download-title">infoDelivery_nc_majorz-v1.xml <a download class="download-icon">⭳</a></div>
             </div>    
           </div>
 
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Coming soon</div>
-              <div class="download-title">resultDelivery_majorz-v1.xml <a class="download-icon">⭳</a></div>
+              <div class="download-title">resultDelivery_nc_majorz-v1.xml <a download class="download-icon">⭳</a></div>
             </div>    
           </div>
 
         </section>
 
-        <h2>Popular Vote</h2>
+        <h3 id="FedElec-CouStat">Council of States</h3>
+
+        <h4 id="FedElec-CouStat-Maj"> Majoritarian Election</h4>
+
         <section class = "wrapper-inner">
           
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Coming soon</div>
-              <div class="download-title">resultDelivery_PopVote-v1.xml <a class="download-icon">⭳</a></div>
+              <div class="download-title">infoDelivery_cs_majorz-v1.xml <a download class="download-icon">⭳</a></div>
+            </div>    
+          </div>
+
+          <div class="download-box">                
+            <div class="download-content">
+              <div class="download-date">Coming soon</div>
+              <div class="download-title">resultDelivery_cs_majorz-v1.xml <a download class="download-icon">⭳</a></div>
+            </div>    
+          </div>
+
+        </section>
+
+
+        <h2 id="PopVote">Popular Vote</h2>
+        <section class = "wrapper-inner">
+          
+          <div class="download-box">                
+            <div class="download-content">
+              <div class="download-date">Coming soon</div>
+              <div class="download-title">resultDelivery_PopVote-v1.xml <a download class="download-icon">⭳</a></div>
             </div>    
           </div>
 

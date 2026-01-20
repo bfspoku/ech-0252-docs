@@ -40,55 +40,105 @@
     <section class = "wrapper"> 
         <h1>YAML file</h1>        
         <p>This page provides a reference for the minimal structure required for a specific XML file, presented in YAML format. The YAML representation outlines the essential elements and hierarchy needed for a valid XML implementation. It is intended to help developers quickly understand the core structure, serve as a starting point for integration, and ensure compliance with the required format. This reference is a practical tool for designing, validating, and maintaining XML files according to the standard.</p>
-        
-        <h2>Federal Election</h2>
+        <p>The supporting files are first organized by field of application (Federal Election or Popular Vote). Federal Election files are then further divided by type of election and electoral system.</p>
+        <p>Use the table of contents below to quickly navigate to the different sections of this page.</p>
+        <ul class="file-organisation">
+          <li>
+            <a href="#FedElec">Federal Election</a>
+            <ul>
+              <li> <a href="#FedElec-NatCou">National Council</a>
+                <ul>
+                  <li> <a href="#FedElec-NatCou-Prop">Proportional Election</a></li>
+                  <li> <a href="#FedElec-NatCou-Maj">Majoritarian Election</a></li>
+                </ul>
+              </li>
+              <li><a href="#FedElec-CouStat">Council of States</a>
+                <ul>
+                  <li> <a href="#FedElec-CouStat-Maj">Majoritarian Election</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#PopVote">Popular Votes</a></li>
+        </ul>
 
-        <h3>Proportional System</h3>
+        <h2 id="FedElec">Federal Election</h2>
+
+        <h3 id="FedElec-NatCou">National Council</h3>
+        <h4 id="FedElec-NatCou-Prop">Proportional Election</h4>
 
         <section class = "wrapper-inner">
-            <div class="download-box">
-                <div class="download-content">
-                  <div class="download-date">Coming soon</div>
-                  <div class="download-title">infoDelivery-proporz-struct-v1.yaml <a class="download-icon">⭳</a></div>
-                </div> 
-            </div>
 
-            <div class="download-box">                
-              <div class="download-content">
-                  <div class="download-date">Coming soon</div>
-                  <div class="download-title">resultDelivery-proporz-struct-v1.yaml <a class="download-icon">⭳</a></div>
-              </div>  
+          <div class="download-box">                
+            <div class="download-content">
+              <div class="download-date">Coming soon</div>
+              <div class="download-title">infoDelivery_struct_nc_proporz-v1.yaml <a download class="download-icon">⭳</a></div>
+            </div> 
           </div>
+            
+          <div class="download-box">                
+            <div class="download-content">
+              <div class="download-date">Coming soon</div>
+              <div class="download-title">resultDelivery_struct_nc_proporz-v1.yaml <a download class="download-icon">⭳</a></div>
+            </div> 
+          </div>
+
         </section>
 
-        <h3>Majoritarian System</h3>
+        <h4 id="FedElec-NatCou-Maj">Majoritarian Election</h4>
 
         <section class = "wrapper-inner">
-          <div class="download-box">
-              <div class="download-content">
-                <div class="download-date">Coming soon</div>
-                <div class="download-title">infoDelivery-majorz-struct-v1.yaml <a class="download-icon">⭳</a></div>
-              </div> 
+          
+          <div class="download-box">                
+            <div class="download-content">
+              <div class="download-date">Coming soon</div>
+              <div class="download-title">infoDelivery_struct_nc_majorz-v1.yaml <a download class="download-icon">⭳</a></div>
+            </div>    
           </div>
 
           <div class="download-box">                
             <div class="download-content">
               <div class="download-date">Coming soon</div>
-              <div class="download-title">resultDelivery-majorz-struct-v1.yaml <a class="download-icon">⭳</a></div>
-            </div>  
+              <div class="download-title">resultDelivery_struct_nc_majorz-v1.xml <a download class="download-icon">⭳</a></div>
+            </div>    
           </div>
+
         </section>
 
-        <h2>Popular Vote</h2>
+        <h3 id="FedElec-CouStat">Council of States</h3>
+
+        <h4 id="FedElec-CouStat-Maj"> Majoritarian Election</h4>
+
         <section class = "wrapper-inner">
+          
           <div class="download-box">                
             <div class="download-content">
-                <div class="download-date">Coming soon</div>
-                <div class="download-title">resultDelivery-popVote-struct-v1.yaml <a class="download-icon">⭳</a></div>
-            </div>
-        </div>
-      </section>
+              <div class="download-date">Coming soon</div>
+              <div class="download-title">infoDelivery_struct_cs_majorz-v1.yaml <a download class="download-icon">⭳</a></div>
+            </div>    
+          </div>
 
+          <div class="download-box">                
+            <div class="download-content">
+              <div class="download-date">Coming soon</div>
+              <div class="download-title">resultDelivery_struct_cs_majorz-v1.yaml <a download class="download-icon">⭳</a></div>
+            </div>    
+          </div>
+
+        </section>
+
+
+        <h2 id="PopVote">Popular Vote</h2>
+        <section class = "wrapper-inner">
+          
+          <div class="download-box">                
+            <div class="download-content">
+              <div class="download-date">Coming soon</div>
+              <div class="download-title">resultDelivery_struct_PopVote-v1.yaml <a download class="download-icon">⭳</a></div>
+            </div>    
+          </div>
+
+        </section>
     </section>
     
     <script src="content/maintenance.js"></script>
