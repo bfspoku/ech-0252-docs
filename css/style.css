@@ -165,6 +165,14 @@ h1, h2 {
   white-space: "pre-line";
 }
 
+.unstyled li {
+  list-style: disc;
+  display: list-item;
+  border-left: none !important;
+  padding: 0 !important;
+  margin-bottom: 0!important;
+}
+
 .updates li {
   background: white;
   padding: 1rem;
@@ -357,7 +365,7 @@ h1, h2 {
 /* Icon */
 .download-icon {
   display: inline-block; 
-  font-size: 24px;
+  font-size: 16px;
   color: #069;
   text-decoration: none;
   margin-left: 15px;
@@ -365,7 +373,7 @@ h1, h2 {
 }
 
 .download-icon:hover {
-  transform: translateY(5px);
+  transform: translateY(2px);
 }
 
 /* FOOTER */
