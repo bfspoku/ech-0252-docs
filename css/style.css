@@ -491,6 +491,7 @@ footer p {
   transform: translateX(5px);
 }
 
+/* LIST FOR FILES ORGANISATION FOR XML AND YAML */
 .file-organisation {
   padding-left: 1.2rem;
   list-style-type: square;
@@ -510,7 +511,7 @@ footer p {
 }
 
 .file-organisation a:hover {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .file-organisation ul li::marker {
@@ -527,4 +528,23 @@ footer p {
 
 .file-organisation ul ul li::marker {
   color: #2f4356;
+}
+
+/* MAIL TO */
+.mailto {
+  text-decoration: none;
+  color:#069
+}
+
+.mailto:hover {
+  font-weight: 600;
+}
+
+.mailto:visited {
+  text-decoration: none;
+}
+
+.mailto-not-active {
+  text-decoration: none;
+  color:rgb(56, 56, 56)
 }
