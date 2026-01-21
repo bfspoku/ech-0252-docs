@@ -1,5 +1,5 @@
 delivery
-|-- deliveryHeader (Most of the info in the delivery header, we take directly from the sedex-envelope. So these elements are not important for us, except for the testDeliveryFlag)
+|-- deliveryHeader
 |    |-- senderId
 |    |-- messageId
 |    |-- messageType
@@ -10,96 +10,93 @@ delivery
 |    |-- comment
 |    |-- messageDate
 |    |-- action
-|    └── testDeliveryFlag (Mandatory & Important)
+|    └── testDeliveryFlag
 └── electionInformationDelivery
-    |-- cantonId (Mandatory & Important)
+    |-- cantonId
     |-- pollingDay
     |-- electionGroupInfo
     |    |-- electionGroup
-    |    |    |-- electionGroupIdentification (is optional in standard. Do we need/want it? GR does not provide it)
+    |    |    |-- electionGroupIdentification
     |    |    |-- domainOfInfluence
-    |    |    |    |-- domainOfIncluenceType (Mandatory & potentially important for us)
-    |    |    |    |-- domainOfInfluenceIdentification (Mandatory & less important for us)
-    |    |    |    |-- domainOfInfluenceName (Mandatory & less important for us)
-    |    |    |    └── domainOfIncluenceShortName (Is this element even in the standard? Should be eCH-0155, but there is only domainOfInfluenceName)
+    |    |    |    |-- domainOfIncluenceType
+    |    |    |    |-- domainOfInfluenceIdentification
+    |    |    |    |-- domainOfInfluenceName
+    |    |    |    └── domainOfIncluenceShortName
     |    |    |-- SuperiorAuthority
-    |    |    |    |-- domainOfIncluenceType (Mandatory & potentially important for us)
-    |    |    |    |-- domainOfInfluenceIdentification (Mandatory & less important for us)
-    |    |    |    |-- domainOfInfluenceName (Mandatory & less important for us)
-    |    |    |    └── domainOfIncluenceShortName (Is this element even in the standard? Should be eCH-0155, but there is only domainOfInfluenceName)
+    |    |    |    |-- domainOfIncluenceType
+    |    |    |    |-- domainOfInfluenceIdentification
+    |    |    |    |-- domainOfInfluenceName
+    |    |    |    └── domainOfIncluenceShortName
     |    |    |-- electionGroupPosition
     |    |    └── electionInformation
     |    |        |-- election
-    |    |        |    |-- electionIdentification (Mandatory & Important)
-    |    |        |    |-- typeOfElection (Mandatory & Important)
+    |    |        |    |-- electionIdentification
+    |    |        |    |-- otherIdentification
+    |    |        |    |    |-- idName
+    |    |        |    |    └── id
+    |    |        |    |-- typeOfElection
     |    |        |    |-- electionDescription
     |    |        |    |    └── electionDescriptionInfo
-    |    |        |    |        |-- language (Mandatory & Important)
-    |    |        |    |        |-- electionDescriptionShort (Mandatory & Important)
-    |    |        |    |        └── electionDescription (Mandatory & Important)
+    |    |        |    |        |-- language
+    |    |        |    |        |-- electionDescriptionShort
+    |    |        |    |        └── electionDescription
     |    |        |    └── numberOfMandates
-    |    |        |-- otherIdentification
-    |    |        |    |-- idName (Mandatory & Important)
-    |    |        |    └── id (Mandatory & Important)
     |    |        |-- candidate
-    |    |        |    |-- candidateIdentification (Mandatory & Important)
-    |    |        |    |-- candidateReference (Mandatory & Important)
-    |    |        |    |-- familyName (Mandatory & Important)
-    |    |        |    |-- firstName (Mandatory & Important)
-    |    |        |    |-- politicalFamilyName (Mandatory & Important)
-    |    |        |    |-- politicalFirstName (Mandatory & Important)
-    |    |        |    |-- callName (Unclear...?)
+    |    |        |    |-- candidateIdentification
+    |    |        |    |-- candidateReference
+    |    |        |    |-- familyName
+    |    |        |    |-- firstName
+    |    |        |    |-- politicalFamilyName
+    |    |        |    |-- politicalFirstName
     |    |        |    |-- candidateText
     |    |        |    |    └── candidateTextInfo
-    |    |        |    |        |-- language (Less important for us... BK?)
-    |    |        |    |        └── candidateText (Less important for us... BK?)
-    |    |        |    |-- dateOfBirth (Mandatory & Important; logic needed for cases when only yearOfBirth is known or delivered. For feedback-purposes it should be treated as mandatory)
-    |    |        |    |-- sex (Mandatory & Important)
+    |    |        |    |        |-- language
+    |    |        |    |        └── candidateText
+    |    |        |    |-- dateOfBirth
+    |    |        |    |-- sex
     |    |        |    |-- occupationalTitle
     |    |        |    |    └── occupationalTitleInfo
-    |    |        |    |        |-- language (Optional and less important)
-    |    |        |    |        └── occupationalTitle (Mandatory & Important)
+    |    |        |    |        |-- language
+    |    |        |    |        └── occupationalTitle
     |    |        |    |-- dwellingAdress
-    |    |        |    |    |-- street (Mandatory & Important)
-    |    |        |    |    |-- houseNumber (Mandatory & Important)
-    |    |        |    |    |-- town (Mandatory & Important)
-    |    |        |    |    |-- swissZipCode (Mandatory & Important for BK)
+    |    |        |    |    |-- street
+    |    |        |    |    |-- houseNumber
+    |    |        |    |    |-- town
+    |    |        |    |    |-- swissZipCode
     |    |        |    |    └── country
     |    |        |    |        |-- countryId
     |    |        |    |        |-- countryIdISO2
-    |    |        |    |        └── countryNameShort (Mandatory & Important)
+    |    |        |    |        └── countryNameShort
     |    |        |    |-- swiss
-    |    |        |    |    └── origin (Mandatory & Important)
-    |    |        |    |-- mrMrs (is optional and we don't need it. ZH does not provide it anymore)
-    |    |        |    |-- title (is optional. Title might be part of occupationalTitle or can be delivered separatly via this element. We probably need some logic here)
-    |    |        |    |-- languageOfCorrespondence
-    |    |        |    |-- incumbentYesNo (optional, but let's check for it in implementation phase)
-    |    |        |    └── partyAffiliation (Nice to have. But let's check for it in implementation phase)
+    |    |        |    |    └── origin
+    |    |        |    |-- title
+    |    |        |    |-- incumbentYesNo
+    |    |        |    └── partyAffiliation
     |    |        |        └── partyAffiliationInfo
     |    |        |            |-- language
     |    |        |            |-- partyAffiliationShort
     |    |        |            └── partyAffiliationLong
     |    |        |-- list
-    |    |        |    |-- listIdentification (Mandatory & Important)
-    |    |        |    |-- listIndentureNumber (Mandatory & Important)
+    |    |        |    |-- listIdentification
+    |    |        |    |-- listIndentureNumber
     |    |        |    |-- listDescription
     |    |        |    |    └── listDescriptionInfo
-    |    |        |    |        |-- language (Mandatory & Important)
-    |    |        |    |        |-- listDescriptionShort (Mandatory & Important)
-    |    |        |    |        └── listDescription (Mandatory & Important)
-    |    |        |    |-- isEmptyList (optional)
-    |    |        |    |-- listOrderOfPrecedence (Optional, but important for us. Let's try to get it from every canton! --> Mandatory in implementation/testing phase)
-    |    |        |    |-- totalPositionOnList (optional)
+    |    |        |    |        |-- language
+    |    |        |    |        |-- listDescriptionShort
+    |    |        |    |        └── listDescription
+    |    |        |    |-- isEmptyList
+    |    |        |    |-- listOrderOfPrecedence
+    |    |        |    |-- totalPositionOnList
     |    |        |    |-- candidatePosition
-    |    |        |    |    |-- positionOnList (Mandatory & Important)
-    |    |        |    |    |-- candidateReferenceOnPosition (Mandatory & Important)
-    |    |        |    |    |-- candidateIdentification (Mandatory & Important)
-    |    |        |    |    └── candidateTextOnPosition (optional, because less important for us or BK)
+    |    |        |    |    |-- positionOnList
+    |    |        |    |    |-- candidateReferenceOnPosition
+    |    |        |    |    |-- candidateIdentification
+    |    |        |    |    └── candidateTextOnPosition
     |    |        |    |        └── candidateTextInfo
     |    |        |    |            |-- language
     |    |        |    |            └── candidateText
     |    |        |    └── emptyListPositions
-    |    |        └── listUnion (Mandatory & Important; might be the case that in a first infoDelivery, this element is not yet included. Still, we should check for it in implementation/test phase)
+    |    |        └── listUnion
     |    |            |-- listUnionIdentification
     |    |            |-- listUnionDescription
     |    |            |    └── listUnionDescriptionInfo
@@ -108,8 +105,8 @@ delivery
     |    |            |-- listUnionType
     |    |            |-- referencedList
     |    |            └── referencedListUnion
-    |    └── CountingCircle (Mandatory in standard, but less important for us. We can use it to check, if the countingCircles in our local DB are the same ones that the ones the canton has in it's delivery)
+    |    └── CountingCircle
     |        |-- countingCircleId
     |        |-- countingCircleName
     |        └── domainOfInfluenceType
-    └── numberOfEntries (optional, less important for us. It's a auxiliary variable)
+    └── numberOfEntries
