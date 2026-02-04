@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- Federal Statistical Office (2026). Example file for the eCH-0252 implementation of federal elections. Illustrates XML structure; does not contain real election data. -->
 <delivery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ech.ch/xmlns/eCH-0252/2">
     <deliveryHeader>
         <senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</senderId>
@@ -8,11 +7,11 @@
         <sendingApplication xmlns="http://www.ech.ch/xmlns/eCH-0058/5">
             <manufacturer>XXX Informatik AG</manufacturer>
             <product>Product name</product>
-            <productVersion>1.0</productVersion>
+            <productVersion>Product Version</productVersion>
         </sendingApplication>
         <comment xmlns="http://www.ech.ch/xmlns/eCH-0058/5">Comment on delivery for receiving party</comment>
         <messageDate xmlns="http://www.ech.ch/xmlns/eCH-0058/5">2024-11-04T09:20:46.2101552Z</messageDate>
-        <action xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1</action>
+        <action xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</action>
         <testDeliveryFlag xmlns="http://www.ech.ch/xmlns/eCH-0058/5">true</testDeliveryFlag>
     </deliveryHeader>
     <electionResultDelivery>
@@ -175,13 +174,12 @@
                 </countingCircleResult>
                 <elected>
                     <majorityElection>
-                        <isElectionResultComplete>true</isElectionResultComplete>
                         <electedCandidate>
                             <candidateOrWriteInCandidate>
                                 <candidateIdentification>0a6cbbc7-c9fb-5782-aa06-7558db2d2ed5</candidateIdentification>
                                 <candidateReference>01</candidateReference>
                             </candidateOrWriteInCandidate>
-                            <isElectedByDraw>false</isElectedByDraw>
+                            <electedByDraw>false</electedByDraw>
                         </electedCandidate>
                     </majorityElection>
                 </elected>

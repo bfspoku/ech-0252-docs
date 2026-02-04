@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- Federal Statistical Office (2026). Example file for the eCH-0252 implementation of federal elections. Illustrates XML structure; does not contain real election data. -->
 <delivery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ech.ch/xmlns/eCH-0252/2">
     <deliveryHeader>
         <senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</senderId>
@@ -8,23 +7,23 @@
         <sendingApplication xmlns="http://www.ech.ch/xmlns/eCH-0058/5">
             <manufacturer>XXX Informatik AG</manufacturer>
             <product>Product name</product>
-            <productVersion>1.0</productVersion>
+            <productVersion>Product Version</productVersion>
         </sendingApplication>
         <comment xmlns="http://www.ech.ch/xmlns/eCH-0058/5">Comment on delivery for receiving party</comment>
-        <messageDate xmlns="http://www.ech.ch/xmlns/eCH-0058/5">2024-11-04T09:20:46.2101552Z</messageDate>
-        <action xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1</action>
+        <messageDate xmlns="http://www.ech.ch/xmlns/eCH-0058/5">2024-11-04T09:20:45.8197974Z</messageDate>
+        <action xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</action>
         <testDeliveryFlag xmlns="http://www.ech.ch/xmlns/eCH-0058/5">true</testDeliveryFlag>
     </deliveryHeader>
     <electionResultDelivery>
         <cantonId>1</cantonId>
-        <pollingDay>2023-11-19</pollingDay>
+        <pollingDay>2023-10-22</pollingDay>
         <electionGroupResult>
-            <electionGroupIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionGroupIdentification>
+            <electionGroupIdentification>f81381de-06b1-5402-b9ec-ac51ddf94238</electionGroupIdentification>
             <electionResult>
-                <electionIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionIdentification>
+                <electionIdentification>f81381de-06b1-5402-b9ec-ac51ddf94238</electionIdentification>
                 <otherIdentification>
                     <idName>idBund</idName>
-                    <id>SR2027_2</id>
+                    <id>SR2027_1</id>
                 </otherIdentification>
                 <countingCircleResult>
                 <countingCircle> 
@@ -32,156 +31,156 @@
 					<countingCircleName>Aeugst am Albis</countingCircleName>
 					<domainOfInfluenceType>MU</domainOfInfluenceType>                    
                 </countingCircle>
-                 <resultData>
+                <resultData>
                     <countOfVotersInformation>
-                        <countOfVotersTotal>1381</countOfVotersTotal>
+                        <countOfVotersTotal>1384</countOfVotersTotal>
                     </countOfVotersInformation>
                     <isFullyCounted>true</isFullyCounted>
-                    <releasedTimestamp>2023-11-19T10:02:58Z</releasedTimestamp>
-                    <lockoutTimestamp>2023-11-19T10:07:42Z</lockoutTimestamp>
-                    <voterTurnout>48.37</voterTurnout>
-                    <countOfReceivedBallots>668</countOfReceivedBallots>
-                    <countOfBlankBallots>1</countOfBlankBallots>
+                    <releasedTimestamp>2023-10-22T10:54:20Z</releasedTimestamp>
+                    <lockoutTimestamp>2023-10-22T13:28:11Z</lockoutTimestamp>
+                    <voterTurnout>58.74</voterTurnout>
+                    <countOfReceivedBallots>813</countOfReceivedBallots>
+                    <countOfBlankBallots>0</countOfBlankBallots>
                     <countOfInvalidBallots>0</countOfInvalidBallots>
-                    <countOfValidBallots>667</countOfValidBallots>
+                    <countOfValidBallots>813</countOfValidBallots>
                     <electionResult>
-                        <electionIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionIdentification>
+                        <electionIdentification>f81381de-06b1-5402-b9ec-ac51ddf94238</electionIdentification>
                         <majorityElection>
                             <candidateResult>
                                 <candidateOrWriteInCandidate>
-                                    <candidateIdentification>0a6cbbc7-c9fb-5782-aa06-7558db2d2ed5</candidateIdentification>
+                                    <candidateIdentification>3c99209c-740c-5513-a317-5fcd33f0e90f</candidateIdentification>
                                     <candidateReference>01</candidateReference>
                                 </candidateOrWriteInCandidate>
-                                <countOfVotesTotal>315</countOfVotesTotal>
+                                <countOfVotesTotal>62</countOfVotesTotal>
                             </candidateResult>
                             <candidateResult>
                                 <candidateOrWriteInCandidate>
-                                    <candidateIdentification>8850a7a5-57d1-5e80-8d56-4f68d7becdb5</candidateIdentification>
+                                    <candidateIdentification>898592e0-5850-500d-8ea9-dfe480e735f4</candidateIdentification>
                                     <candidateReference>02</candidateReference>
                                 </candidateOrWriteInCandidate>
-                                <countOfVotesTotal>4</countOfVotesTotal>
-                            </candidateResult>                                                       
+                                <countOfVotesTotal>389</countOfVotesTotal>
+                            </candidateResult>
                             <candidateResult>
                                 <candidateOrWriteInCandidate>
-                                    <candidateIdentification>66a7eafc-b262-53e3-b12d-96a675d83298</candidateIdentification>
+                                    <candidateIdentification>825434ad-87e3-584d-b013-86619e553732</candidateIdentification>
                                     <candidateReference>03</candidateReference>
                                 </candidateOrWriteInCandidate>
-                                <countOfVotesTotal>330</countOfVotesTotal>
+                                <countOfVotesTotal>96</countOfVotesTotal>
                             </candidateResult>
-                            <countOfInvalidVotesTotal>0</countOfInvalidVotesTotal>
-                            <countOfBlankVotesTotal>0</countOfBlankVotesTotal>
-                            <countOfIndividualVotesTotal>5</countOfIndividualVotesTotal>
+                            <countOfInvalidVotesTotal>7</countOfInvalidVotesTotal>
+                            <countOfBlankVotesTotal>76</countOfBlankVotesTotal>
+                            <countOfIndividualVotesTotal>23</countOfIndividualVotesTotal>
                         </majorityElection>
                     </electionResult>
-                 </resultData>
+                   </resultData>
                 </countingCircleResult>
-                <countingCircleResult>
+                <countingCircleResult>                
                 <countingCircle> 
                     <countingCircleId>2</countingCircleId>
 					<countingCircleName>Affoltern am Albis</countingCircleName>
 					<domainOfInfluenceType>MU</domainOfInfluenceType>                    
                 </countingCircle>
-                 <resultData>    
+                <resultData>                
                     <countOfVotersInformation>
-                        <countOfVotersTotal>7286</countOfVotersTotal>
+                        <countOfVotersTotal>7280</countOfVotersTotal>
                     </countOfVotersInformation>
                     <isFullyCounted>true</isFullyCounted>
-                    <releasedTimestamp>2023-11-19T09:40:05Z</releasedTimestamp>
-                    <lockoutTimestamp>2023-11-19T09:46:47Z</lockoutTimestamp>
-                    <voterTurnout>35.27</voterTurnout>
-                    <countOfReceivedBallots>2570</countOfReceivedBallots>
-                    <countOfBlankBallots>14</countOfBlankBallots>
-                    <countOfInvalidBallots>2</countOfInvalidBallots>
-                    <countOfValidBallots>2554</countOfValidBallots>
+                    <releasedTimestamp>2023-10-22T13:12:51Z</releasedTimestamp>
+                    <lockoutTimestamp>2023-10-22T13:58:15Z</lockoutTimestamp>
+                    <voterTurnout>45.36</voterTurnout>
+                    <countOfReceivedBallots>3302</countOfReceivedBallots>
+                    <countOfBlankBallots>15</countOfBlankBallots>
+                    <countOfInvalidBallots>0</countOfInvalidBallots>
+                    <countOfValidBallots>3287</countOfValidBallots>
                     <electionResult>
-                        <electionIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionIdentification>
+                        <electionIdentification>f81381de-06b1-5402-b9ec-ac51ddf94238</electionIdentification>
                         <majorityElection>
                             <candidateResult>
                                 <candidateOrWriteInCandidate>
-                                    <candidateIdentification>0a6cbbc7-c9fb-5782-aa06-7558db2d2ed5</candidateIdentification>
+                                    <candidateIdentification>3c99209c-740c-5513-a317-5fcd33f0e90f</candidateIdentification>
                                     <candidateReference>01</candidateReference>
                                 </candidateOrWriteInCandidate>
-                                <countOfVotesTotal>1323</countOfVotesTotal>
+                                <countOfVotesTotal>256</countOfVotesTotal>
                             </candidateResult>
                             <candidateResult>
                                 <candidateOrWriteInCandidate>
-                                    <candidateIdentification>8850a7a5-57d1-5e80-8d56-4f68d7becdb5</candidateIdentification>
+                                    <candidateIdentification>898592e0-5850-500d-8ea9-dfe480e735f4</candidateIdentification>
                                     <candidateReference>02</candidateReference>
                                 </candidateOrWriteInCandidate>
-                                <countOfVotesTotal>2</countOfVotesTotal>
-                            </candidateResult>                            
+                                <countOfVotesTotal>1636</countOfVotesTotal>
+                            </candidateResult>
                             <candidateResult>
                                 <candidateOrWriteInCandidate>
-                                    <candidateIdentification>66a7eafc-b262-53e3-b12d-96a675d83298</candidateIdentification>
+                                    <candidateIdentification>825434ad-87e3-584d-b013-86619e553732</candidateIdentification>
                                     <candidateReference>03</candidateReference>
                                 </candidateOrWriteInCandidate>
-                                <countOfVotesTotal>1153</countOfVotesTotal>
+                                <countOfVotesTotal>497</countOfVotesTotal>
                             </candidateResult>
-                            <countOfInvalidVotesTotal>1</countOfInvalidVotesTotal>
-                            <countOfBlankVotesTotal>0</countOfBlankVotesTotal>
-                            <countOfIndividualVotesTotal>10</countOfIndividualVotesTotal>
+                            <countOfInvalidVotesTotal>35</countOfInvalidVotesTotal>
+                            <countOfBlankVotesTotal>253</countOfBlankVotesTotal>
+                            <countOfIndividualVotesTotal>177</countOfIndividualVotesTotal>
                         </majorityElection>
                     </electionResult>
-                 </resultData>                    
-                </countingCircleResult>
-                <countingCircleResult>
+                   </resultData>
+				</countingCircleResult>
+                <countingCircleResult>                
 					<countingCircle> 
                     <countingCircleId>19010</countingCircleId>
                     <countingCircleName>Auslandschweizer</countingCircleName>
 					<domainOfInfluenceType>MU</domainOfInfluenceType>
 					</countingCircle>
-                 <resultData>   
+                 <resultData>    
                     <countOfVotersInformation>
-                        <countOfVotersTotal>35204</countOfVotersTotal>
+                        <countOfVotersTotal>35055</countOfVotersTotal>
                     </countOfVotersInformation>
                     <isFullyCounted>true</isFullyCounted>
-                    <releasedTimestamp>2023-11-19T13:18:02Z</releasedTimestamp>
-                    <lockoutTimestamp>2023-11-19T13:25:49Z</lockoutTimestamp>
-                    <voterTurnout>10.02</voterTurnout>
-                    <countOfReceivedBallots>3526</countOfReceivedBallots>
-                    <countOfBlankBallots>25</countOfBlankBallots>
-                    <countOfInvalidBallots>0</countOfInvalidBallots>
-                    <countOfValidBallots>3501</countOfValidBallots>
+                    <releasedTimestamp>2023-10-22T15:30:53Z</releasedTimestamp>
+                    <lockoutTimestamp>2023-10-22T16:13:53Z</lockoutTimestamp>
+                    <voterTurnout>17.02</voterTurnout>
+                    <countOfReceivedBallots>5968</countOfReceivedBallots>
+                    <countOfBlankBallots>51</countOfBlankBallots>
+                    <countOfInvalidBallots>11</countOfInvalidBallots>
+                    <countOfValidBallots>5906</countOfValidBallots>
                     <electionResult>
-                        <electionIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionIdentification>
+                        <electionIdentification>f81381de-06b1-5402-b9ec-ac51ddf94238</electionIdentification>
                         <majorityElection>
                             <candidateResult>
                                 <candidateOrWriteInCandidate>
-                                    <candidateIdentification>0a6cbbc7-c9fb-5782-aa06-7558db2d2ed5</candidateIdentification>
+                                    <candidateIdentification>3c99209c-740c-5513-a317-5fcd33f0e90f</candidateIdentification>
                                     <candidateReference>01</candidateReference>
                                 </candidateOrWriteInCandidate>
-                                <countOfVotesTotal>2185</countOfVotesTotal>
+                                <countOfVotesTotal>432</countOfVotesTotal>
                             </candidateResult>
                             <candidateResult>
                                 <candidateOrWriteInCandidate>
-                                    <candidateIdentification>8850a7a5-57d1-5e80-8d56-4f68d7becdb5</candidateIdentification>
+                                    <candidateIdentification>898592e0-5850-500d-8ea9-dfe480e735f4</candidateIdentification>
                                     <candidateReference>02</candidateReference>
                                 </candidateOrWriteInCandidate>
-                                <countOfVotesTotal>50</countOfVotesTotal>
+                                <countOfVotesTotal>2735</countOfVotesTotal>
                             </candidateResult>
                             <candidateResult>
                                 <candidateOrWriteInCandidate>
-                                    <candidateIdentification>66a7eafc-b262-53e3-b12d-96a675d83298</candidateIdentification>
+                                    <candidateIdentification>825434ad-87e3-584d-b013-86619e553732</candidateIdentification>
                                     <candidateReference>03</candidateReference>
                                 </candidateOrWriteInCandidate>
-                                <countOfVotesTotal>925</countOfVotesTotal>
+                                <countOfVotesTotal>743</countOfVotesTotal>
                             </candidateResult>
-                            <countOfInvalidVotesTotal>8</countOfInvalidVotesTotal>
-                            <countOfBlankVotesTotal>0</countOfBlankVotesTotal>
-                            <countOfIndividualVotesTotal>22</countOfIndividualVotesTotal>
+                            <countOfInvalidVotesTotal>62</countOfInvalidVotesTotal>
+                            <countOfBlankVotesTotal>431</countOfBlankVotesTotal>
+                            <countOfIndividualVotesTotal>456</countOfIndividualVotesTotal>
                         </majorityElection>
                     </electionResult>
-                 </resultData>      
+                   </resultData>
                 </countingCircleResult>
                 <elected>
                     <majorityElection>
-                        <isElectionResultComplete>true</isElectionResultComplete>
+                        <absoluteMajority>3424</absoluteMajority>
                         <electedCandidate>
                             <candidateOrWriteInCandidate>
-                                <candidateIdentification>0a6cbbc7-c9fb-5782-aa06-7558db2d2ed5</candidateIdentification>
-                                <candidateReference>01</candidateReference>
+                                <candidateIdentification>898592e0-5850-500d-8ea9-dfe480e735f4</candidateIdentification>
+                                <candidateReference>02</candidateReference>
                             </candidateOrWriteInCandidate>
-                            <isElectedByDraw>false</isElectedByDraw>
+                            <electedByDraw>false</electedByDraw>
                         </electedCandidate>
                     </majorityElection>
                 </elected>

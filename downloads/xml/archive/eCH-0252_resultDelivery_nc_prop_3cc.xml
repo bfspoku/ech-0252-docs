@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- Federal Statistical Office (2026). Example file for the eCH-0252 implementation of federal elections. Illustrates XML structure; does not contain real election data. -->
 <delivery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ech.ch/xmlns/eCH-0252/2">
 	<deliveryHeader>
 		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</senderId>
@@ -8,11 +7,11 @@
 		<sendingApplication xmlns="http://www.ech.ch/xmlns/eCH-0058/5">
 			<manufacturer>XXX Informatik AG</manufacturer>
 			<product>Product name</product>
-			<productVersion>1.0</productVersion>
+			<productVersion>Product Version</productVersion>
 		</sendingApplication>
 		<comment xmlns="http://www.ech.ch/xmlns/eCH-0058/5">Comment on delivery for receiving party</comment>
 		<messageDate xmlns="http://www.ech.ch/xmlns/eCH-0058/5">2025-10-24T13:40:23.8485049Z</messageDate>
-		<action xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1</action>
+		<action xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</action>
 		<testDeliveryFlag xmlns="http://www.ech.ch/xmlns/eCH-0058/5">true</testDeliveryFlag>
 	</deliveryHeader>
 	<electionResultDelivery>
@@ -22,10 +21,7 @@
 			<electionGroupIdentification>9406b7d9-778c-4f03-a44b-9309c950d5a2</electionGroupIdentification>
 			<electionResult>
 				<electionIdentification>9406b7d9-778c-4f03-a44b-9309c950d5a2</electionIdentification>
-				<otherIdentification>
-					<idName>idBund</idName>
-					<id>NR2027</id>
-				</otherIdentification>
+				<otherIdentification><idName>idBund</idName><id>NR2027</id></otherIdentification>
 				<countingCircleResult>
 					<countingCircle>
 						<countingCircleId>1</countingCircleId>
@@ -274,7 +270,153 @@
 						<countingCircleName>Auslandschweizer</countingCircleName>
 						<domainOfInfluenceType>MU</domainOfInfluenceType>
 					</countingCircle>
-				</countingCircleResult>	
+					<resultData>
+						<countOfVotersInformation>
+							<countOfVotersTotal>35055</countOfVotersTotal>
+							<subtotalInfo>
+								<countOfVoters>17097</countOfVoters>
+								<voterType>1</voterType>
+								<sex>1</sex>
+							</subtotalInfo>
+							<subtotalInfo>
+								<countOfVoters>17958</countOfVoters>
+								<voterType>1</voterType>
+								<sex>2</sex>
+							</subtotalInfo>
+						</countOfVotersInformation>
+						<votingCardInformation>
+							<countOfVotingCardsReceivedInBallotBox>0</countOfVotingCardsReceivedInBallotBox>
+							<countOfVotingCardsReceivedPrematurelyInBallotBox>0</countOfVotingCardsReceivedPrematurelyInBallotBox>
+							<countOfVotingCardsReceivedByMail>7606</countOfVotingCardsReceivedByMail>
+							<countOfInvalidVotingCardsReceivedByMail>128</countOfInvalidVotingCardsReceivedByMail>
+						</votingCardInformation>
+						<isFullyCounted>true</isFullyCounted>
+						<releasedTimestamp>2025-05-09T12:30:55.976671Z</releasedTimestamp>
+						<lockoutTimestamp>2025-05-09T12:49:13.093075Z</lockoutTimestamp>
+						<voterTurnout>16.45</voterTurnout>
+						<countOfReceivedBallots>5767</countOfReceivedBallots>
+						<countOfBlankBallots>0</countOfBlankBallots>
+						<countOfInvalidBallots>54</countOfInvalidBallots>
+						<countOfValidBallots>5713</countOfValidBallots>
+						<electionResult>
+							<electionIdentification>9406b7d9-778c-4f03-a44b-9309c950d5a2</electionIdentification>
+							<proportionalElection>
+								<countOfChangedBallotsWithoutListDesignation>70</countOfChangedBallotsWithoutListDesignation>
+								<countOfBlankVotesOfChangedBallotsWithoutListDesignation>494</countOfBlankVotesOfChangedBallotsWithoutListDesignation>
+								<listResults>
+									<listIdentification>3677f504-4186-438a-a0a9-747e825d0995</listIdentification>
+									<listIndentureNumber>01</listIndentureNumber>
+									<countOfChangedBallots>159</countOfChangedBallots>
+									<countOfUnchangedBallots>745</countOfUnchangedBallots>
+									<countOfCandidateVotes>32151</countOfCandidateVotes>
+									<countOfAdditionalVotes>355</countOfAdditionalVotes>
+									<candidateResults>
+										<candidateIdentification>c876dab0-5ba4-4b5b-b57c-959233565cfc</candidateIdentification>
+										<candidateReferenceOnPosition>01.01</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>254</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>745</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									<candidateResults>
+										<candidateIdentification>caed0e99-44b1-4f11-9c8d-5f5afe79b49a</candidateIdentification>
+										<candidateReferenceOnPosition>01.02</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>252</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>745</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									<candidateResults>
+										<candidateIdentification>2ae8f396-6289-4f73-bc77-655723d20028</candidateIdentification>
+										<candidateReferenceOnPosition>01.03</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>221</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>745</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									</listResults>
+								<listResults>
+									<listIdentification>76506830-ffaf-4254-afbc-cbefa911014c</listIdentification>
+									<listIndentureNumber>02</listIndentureNumber>
+									<countOfChangedBallots>349</countOfChangedBallots>
+									<countOfUnchangedBallots>789</countOfUnchangedBallots>
+									<countOfCandidateVotes>40256</countOfCandidateVotes>
+									<countOfAdditionalVotes>543</countOfAdditionalVotes>
+									<candidateResults>
+										<candidateIdentification>82195151-31ff-4e57-9f15-bb4037cbcf4e</candidateIdentification>
+										<candidateReferenceOnPosition>02.01</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>616</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>789</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									<candidateResults>
+										<candidateIdentification>e48d8851-1fcb-4548-a64b-4d8782efbf7e</candidateIdentification>
+										<candidateReferenceOnPosition>02.02</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>745</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>789</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									<candidateResults>
+										<candidateIdentification>d1ba1ac6-f691-4b32-8f88-77c62dc86df3</candidateIdentification>
+										<candidateReferenceOnPosition>02.03</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>514</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>789</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									</listResults>
+								<listResults>
+									<listIdentification>2b4dab01-8b91-4239-94e9-327ae7fe2e1c</listIdentification>
+									<listIndentureNumber>03</listIndentureNumber>
+									<countOfChangedBallots>235</countOfChangedBallots>
+									<countOfUnchangedBallots>606</countOfUnchangedBallots>
+									<countOfCandidateVotes>29633</countOfCandidateVotes>
+									<countOfAdditionalVotes>411</countOfAdditionalVotes>
+									<candidateResults>
+										<candidateIdentification>db277429-e0b9-48dc-8a58-1c9ac8d95d96</candidateIdentification>
+										<candidateReferenceOnPosition>03.01</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>417</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>606</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									<candidateResults>
+										<candidateIdentification>358ce20a-ca38-4189-9d24-43fc29cc7861</candidateIdentification>
+										<candidateReferenceOnPosition>03.02</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>451</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>606</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									<candidateResults>
+										<candidateIdentification>0be06069-ee8c-4bff-b87c-09ee8934f45d</candidateIdentification>
+										<candidateReferenceOnPosition>03.03</candidateReferenceOnPosition>
+										<countOfVotesFromChangedBallots>371</countOfVotesFromChangedBallots>
+										<countOfVotesFromUnchangedBallots>606</countOfVotesFromUnchangedBallots>
+									</candidateResults>
+									</listResults>
+								</proportionalElection>
+						</electionResult>
+					</resultData>
+				</countingCircleResult>
+				<elected>
+					<proportionalElection>
+						<isElectionResultComplete>true</isElectionResultComplete>
+						<list>
+							<listIdentification>3677f504-4186-438a-a0a9-747e825d0995</listIdentification>
+							<listIndentureNumber>01</listIndentureNumber>
+							<electedCandidate>
+								<candidateIdentification>c876dab0-5ba4-4b5b-b57c-959233565cfc</candidateIdentification>
+								<isElectedByDraw>false</isElectedByDraw>
+							</electedCandidate>
+							<electedCandidate>
+								<candidateIdentification>caed0e99-44b1-4f11-9c8d-5f5afe79b49a</candidateIdentification>
+								<isElectedByDraw>false</isElectedByDraw>
+							</electedCandidate>
+							<countOfSeatsGained>2</countOfSeatsGained>
+						</list>
+						<list>
+							<listIdentification>76506830-ffaf-4254-afbc-cbefa911014c</listIdentification>
+							<listIndentureNumber>02</listIndentureNumber>
+							<electedCandidate>
+								<candidateIdentification>e48d8851-1fcb-4548-a64b-4d8782efbf7e</candidateIdentification>
+								<isElectedByDraw>false</isElectedByDraw>
+							</electedCandidate>
+							<countOfSeatsGained>1</countOfSeatsGained>
+						</list>
+						<list>
+							<listIdentification>2b4dab01-8b91-4239-94e9-327ae7fe2e1c</listIdentification>
+							<listIndentureNumber>03</listIndentureNumber>
+							<countOfSeatsGained>0</countOfSeatsGained>
+						</list>
+					</proportionalElection>
+				</elected>
 			</electionResult>
 		</electionGroupResult>
 		<numberOfEntries>1</numberOfEntries>

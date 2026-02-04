@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Federal Statistical Office (2026). Example file for the eCH-0252 implementation of federal elections. Illustrates XML structure; does not contain real election data.
+	Special example with two elected candidates in the second election round: one candidate known in advance and one write-in candidate.
+-->
+<delivery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ech.ch/xmlns/eCH-0252/2">
+	<deliveryHeader>
+		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</senderId>
+		<messageId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</messageId>
+		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1240</messageType>
+		<sendingApplication xmlns="http://www.ech.ch/xmlns/eCH-0058/5">
+			<manufacturer>XXX Informatik AG</manufacturer>
+			<product>Product name</product>
+			<productVersion>1.0</productVersion>
+		</sendingApplication>
+		<comment xmlns="http://www.ech.ch/xmlns/eCH-0058/5">Comment on delivery for receiving party</comment>
+		<messageDate xmlns="http://www.ech.ch/xmlns/eCH-0058/5">2024-11-04T09:20:46.2101552Z</messageDate>
+		<action xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1</action>
+		<testDeliveryFlag xmlns="http://www.ech.ch/xmlns/eCH-0058/5">true</testDeliveryFlag>
+	</deliveryHeader>
+	<electionResultDelivery>
+		<cantonId>1</cantonId>
+		<pollingDay>2023-11-19</pollingDay>
+		<electionGroupResult>
+			<electionGroupIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionGroupIdentification>
+			<electionResult>
+				<electionIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionIdentification>
+				<otherIdentification>
+					<idName>idBund</idName>
+					<id>SR2027_2</id>
+				</otherIdentification>
+				<countingCircleResult>
+					<countingCircle>
+						<countingCircleId>1</countingCircleId>
+						<countingCircleName>Aeugst am Albis</countingCircleName>
+						<domainOfInfluenceType>MU</domainOfInfluenceType>
+					</countingCircle>
+					<resultData>
+						<countOfVotersInformation>
+							<countOfVotersTotal>1381</countOfVotersTotal>
+						</countOfVotersInformation>
+						<isFullyCounted>true</isFullyCounted>
+						<releasedTimestamp>2023-11-19T10:02:58Z</releasedTimestamp>
+						<lockoutTimestamp>2023-11-19T10:07:42Z</lockoutTimestamp>
+						<voterTurnout>48.37</voterTurnout>
+						<countOfReceivedBallots>668</countOfReceivedBallots>
+						<countOfBlankBallots>1</countOfBlankBallots>
+						<countOfInvalidBallots>0</countOfInvalidBallots>
+						<countOfValidBallots>667</countOfValidBallots>
+						<electionResult>
+							<electionIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionIdentification>
+							<majorityElection>
+								<candidateResult>
+									<candidateOrWriteInCandidate>
+										<candidateIdentification>0a6cbbc7-c9fb-5782-aa06-7558db2d2ed5</candidateIdentification>
+										<candidateReference>01</candidateReference>
+									</candidateOrWriteInCandidate>
+									<countOfVotesTotal>190</countOfVotesTotal>
+								</candidateResult>
+								<candidateResult>
+									<candidateOrWriteInCandidate>
+										<candidateIdentification>8850a7a5-57d1-5e80-8d56-4f68d7becdb5</candidateIdentification>
+										<candidateReference>02</candidateReference>
+									</candidateOrWriteInCandidate>
+									<countOfVotesTotal>4</countOfVotesTotal>
+								</candidateResult>
+								<candidateResult>
+									<candidateOrWriteInCandidate>
+										<candidateIdentification>66a7eafc-b262-53e3-b12d-96a675d83298</candidateIdentification>
+										<candidateReference>03</candidateReference>
+									</candidateOrWriteInCandidate>
+									<countOfVotesTotal>205</countOfVotesTotal>
+								</candidateResult>
+								<candidateResult>
+									<candidateOrWriteInCandidate>
+										<writeInCandidate>
+											<candidateIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">834953ti-99p7-664l-c643-59734r973497</candidateIdentification>
+											<familyName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn family name 01</familyName>
+											<firstName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn first name 01</firstName>
+											<politicalFamilyName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn political family name 01</politicalFamilyName>
+											<politicalFirstName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn political first name 01</politicalFirstName>
+											<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-11</dateOfBirth>
+											<sex xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</sex>
+											<occupationalTitle xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+												<occupationalTitleInfo>
+													<language>de</language>
+													<occupationalTitle>Lehrer</occupationalTitle>
+												</occupationalTitleInfo>
+											</occupationalTitle>
+											<dwellingAddress xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+												<street xmlns="http://www.ech.ch/xmlns/eCH-0010/6">Hauptstrasse</street>
+												<houseNumber xmlns="http://www.ech.ch/xmlns/eCH-0010/6">11</houseNumber>
+												<town xmlns="http://www.ech.ch/xmlns/eCH-0010/6">Winterthur</town>
+												<swissZipCode xmlns="http://www.ech.ch/xmlns/eCH-0010/6">8400</swissZipCode>
+												<country xmlns="http://www.ech.ch/xmlns/eCH-0010/6">
+													<countryId>8100</countryId>
+													<countryIdISO2>CH</countryIdISO2>
+													<countryNameShort>Schweiz</countryNameShort>
+												</country>
+											</dwellingAddress>
+											<swiss xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+												<origin>Heimatort ZH</origin>
+											</swiss>
+											<incumbentYesNo xmlns="http://www.ech.ch/xmlns/eCH-0155/5">false</incumbentYesNo>
+											<candidateReference xmlns="http://www.ech.ch/xmlns/eCH-0155/5">04</candidateReference>
+											<partyAffiliation xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+												<partyAffiliationInfo>
+													<language>de</language>
+													<partyAffiliationShort>FDP</partyAffiliationShort>
+													<partyAffiliationLong>FDP.Die Liberalen</partyAffiliationLong>
+												</partyAffiliationInfo>
+											</partyAffiliation>
+										</writeInCandidate>
+									</candidateOrWriteInCandidate>
+									<countOfVotesTotal>250</countOfVotesTotal>
+								</candidateResult>
+								<countOfInvalidVotesTotal>0</countOfInvalidVotesTotal>
+								<countOfBlankVotesTotal>0</countOfBlankVotesTotal>
+								<countOfIndividualVotesTotal>5</countOfIndividualVotesTotal>
+							</majorityElection>
+						</electionResult>
+					</resultData>
+				</countingCircleResult>
+				<countingCircleResult>
+					<countingCircle>
+						<countingCircleId>2</countingCircleId>
+						<countingCircleName>Affoltern am Albis</countingCircleName>
+						<domainOfInfluenceType>MU</domainOfInfluenceType>
+					</countingCircle>
+					<resultData>
+						<countOfVotersInformation>
+							<countOfVotersTotal>7286</countOfVotersTotal>
+						</countOfVotersInformation>
+						<isFullyCounted>true</isFullyCounted>
+						<releasedTimestamp>2023-11-19T09:40:05Z</releasedTimestamp>
+						<lockoutTimestamp>2023-11-19T09:46:47Z</lockoutTimestamp>
+						<voterTurnout>35.27</voterTurnout>
+						<countOfReceivedBallots>2570</countOfReceivedBallots>
+						<countOfBlankBallots>14</countOfBlankBallots>
+						<countOfInvalidBallots>2</countOfInvalidBallots>
+						<countOfValidBallots>2554</countOfValidBallots>
+						<electionResult>
+							<electionIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionIdentification>
+							<majorityElection>
+								<candidateResult>
+									<candidateOrWriteInCandidate>
+										<candidateIdentification>0a6cbbc7-c9fb-5782-aa06-7558db2d2ed5</candidateIdentification>
+										<candidateReference>01</candidateReference>
+									</candidateOrWriteInCandidate>
+									<countOfVotesTotal>623</countOfVotesTotal>
+								</candidateResult>
+								<candidateResult>
+									<candidateOrWriteInCandidate>
+										<candidateIdentification>8850a7a5-57d1-5e80-8d56-4f68d7becdb5</candidateIdentification>
+										<candidateReference>02</candidateReference>
+									</candidateOrWriteInCandidate>
+									<countOfVotesTotal>2</countOfVotesTotal>
+								</candidateResult>
+								<candidateResult>
+									<candidateOrWriteInCandidate>
+										<candidateIdentification>66a7eafc-b262-53e3-b12d-96a675d83298</candidateIdentification>
+										<candidateReference>03</candidateReference>
+									</candidateOrWriteInCandidate>
+									<countOfVotesTotal>453</countOfVotesTotal>
+								</candidateResult>
+								<candidateResult>
+									<candidateOrWriteInCandidate>
+										<writeInCandidate>
+											<candidateIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">834953ti-99p7-664l-c643-59734r973497</candidateIdentification>
+											<familyName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn family name 01</familyName>
+											<firstName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn first name 01</firstName>
+											<politicalFamilyName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn political family name 01</politicalFamilyName>
+											<politicalFirstName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn political first name 01</politicalFirstName>
+											<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-11</dateOfBirth>
+											<sex xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</sex>
+											<occupationalTitle xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+												<occupationalTitleInfo>
+													<language>de</language>
+													<occupationalTitle>Lehrer</occupationalTitle>
+												</occupationalTitleInfo>
+											</occupationalTitle>
+											<dwellingAddress xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+												<street xmlns="http://www.ech.ch/xmlns/eCH-0010/6">Hauptstrasse</street>
+												<houseNumber xmlns="http://www.ech.ch/xmlns/eCH-0010/6">11</houseNumber>
+												<town xmlns="http://www.ech.ch/xmlns/eCH-0010/6">Winterthur</town>
+												<swissZipCode xmlns="http://www.ech.ch/xmlns/eCH-0010/6">8400</swissZipCode>
+												<country xmlns="http://www.ech.ch/xmlns/eCH-0010/6">
+													<countryId>8100</countryId>
+													<countryIdISO2>CH</countryIdISO2>
+													<countryNameShort>Schweiz</countryNameShort>
+												</country>
+											</dwellingAddress>
+											<swiss xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+												<origin>Heimatort ZH</origin>
+											</swiss>
+											<incumbentYesNo xmlns="http://www.ech.ch/xmlns/eCH-0155/5">false</incumbentYesNo>
+											<candidateReference xmlns="http://www.ech.ch/xmlns/eCH-0155/5">04</candidateReference>
+											<partyAffiliation xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+												<partyAffiliationInfo>
+													<language>de</language>
+													<partyAffiliationShort>FDP</partyAffiliationShort>
+													<partyAffiliationLong>FDP.Die Liberalen</partyAffiliationLong>
+												</partyAffiliationInfo>
+											</partyAffiliation>
+										</writeInCandidate>
+									</candidateOrWriteInCandidate>
+									<countOfVotesTotal>1400</countOfVotesTotal>
+								</candidateResult>
+								<countOfInvalidVotesTotal>1</countOfInvalidVotesTotal>
+								<countOfBlankVotesTotal>0</countOfBlankVotesTotal>
+								<countOfIndividualVotesTotal>10</countOfIndividualVotesTotal>
+							</majorityElection>
+						</electionResult>
+					</resultData>
+				</countingCircleResult>
+				<countingCircleResult>
+					<countingCircle>
+						<countingCircleId>19010</countingCircleId>
+						<countingCircleName>Auslandschweizer</countingCircleName>
+						<domainOfInfluenceType>MU</domainOfInfluenceType>
+					</countingCircle>
+					<resultData>
+						<countOfVotersInformation>
+							<countOfVotersTotal>35204</countOfVotersTotal>
+						</countOfVotersInformation>
+						<isFullyCounted>true</isFullyCounted>
+						<releasedTimestamp>2023-11-19T13:18:02Z</releasedTimestamp>
+						<lockoutTimestamp>2023-11-19T13:25:49Z</lockoutTimestamp>
+						<voterTurnout>10.02</voterTurnout>
+						<countOfReceivedBallots>3526</countOfReceivedBallots>
+						<countOfBlankBallots>25</countOfBlankBallots>
+						<countOfInvalidBallots>0</countOfInvalidBallots>
+						<countOfValidBallots>3501</countOfValidBallots>
+						<electionResult>
+							<electionIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionIdentification>
+							<majorityElection>
+								<candidateResult>
+									<candidateOrWriteInCandidate>
+										<candidateIdentification>0a6cbbc7-c9fb-5782-aa06-7558db2d2ed5</candidateIdentification>
+										<candidateReference>01</candidateReference>
+									</candidateOrWriteInCandidate>
+									<countOfVotesTotal>685</countOfVotesTotal>
+								</candidateResult>
+								<candidateResult>
+									<candidateOrWriteInCandidate>
+										<candidateIdentification>8850a7a5-57d1-5e80-8d56-4f68d7becdb5</candidateIdentification>
+										<candidateReference>02</candidateReference>
+									</candidateOrWriteInCandidate>
+									<countOfVotesTotal>50</countOfVotesTotal>
+								</candidateResult>
+								<candidateResult>
+									<candidateOrWriteInCandidate>
+										<candidateIdentification>66a7eafc-b262-53e3-b12d-96a675d83298</candidateIdentification>
+										<candidateReference>03</candidateReference>
+									</candidateOrWriteInCandidate>
+									<countOfVotesTotal>325</countOfVotesTotal>
+								</candidateResult>
+								<candidateResult>
+									<candidateOrWriteInCandidate>
+										<writeInCandidate>
+											<candidateIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">834953ti-99p7-664l-c643-59734r973497</candidateIdentification>
+											<familyName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn family name 01</familyName>
+											<firstName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn first name 01</firstName>
+											<politicalFamilyName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn political family name 01</politicalFamilyName>
+											<politicalFirstName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn political first name 01</politicalFirstName>
+											<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-11</dateOfBirth>
+											<sex xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</sex>
+											<occupationalTitle xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+												<occupationalTitleInfo>
+													<language>de</language>
+													<occupationalTitle>Lehrer</occupationalTitle>
+												</occupationalTitleInfo>
+											</occupationalTitle>
+											<dwellingAddress xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+												<street xmlns="http://www.ech.ch/xmlns/eCH-0010/6">Hauptstrasse</street>
+												<houseNumber xmlns="http://www.ech.ch/xmlns/eCH-0010/6">11</houseNumber>
+												<town xmlns="http://www.ech.ch/xmlns/eCH-0010/6">Winterthur</town>
+												<swissZipCode xmlns="http://www.ech.ch/xmlns/eCH-0010/6">8400</swissZipCode>
+												<country xmlns="http://www.ech.ch/xmlns/eCH-0010/6">
+													<countryId>8100</countryId>
+													<countryIdISO2>CH</countryIdISO2>
+													<countryNameShort>Schweiz</countryNameShort>
+												</country>
+											</dwellingAddress>
+											<swiss xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+												<origin>Heimatort ZH</origin>
+											</swiss>
+											<incumbentYesNo xmlns="http://www.ech.ch/xmlns/eCH-0155/5">false</incumbentYesNo>
+											<candidateReference xmlns="http://www.ech.ch/xmlns/eCH-0155/5">04</candidateReference>
+											<partyAffiliation xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+												<partyAffiliationInfo>
+													<language>de</language>
+													<partyAffiliationShort>FDP</partyAffiliationShort>
+													<partyAffiliationLong>FDP.Die Liberalen</partyAffiliationLong>
+												</partyAffiliationInfo>
+											</partyAffiliation>
+										</writeInCandidate>
+									</candidateOrWriteInCandidate>
+									<countOfVotesTotal>2100</countOfVotesTotal>
+								</candidateResult>
+								<countOfInvalidVotesTotal>8</countOfInvalidVotesTotal>
+								<countOfBlankVotesTotal>0</countOfBlankVotesTotal>
+								<countOfIndividualVotesTotal>22</countOfIndividualVotesTotal>
+							</majorityElection>
+						</electionResult>
+					</resultData>
+				</countingCircleResult>
+				<elected>
+					<majorityElection>
+						<isElectionResultComplete>true</isElectionResultComplete>
+						<electedCandidate>
+							<candidateOrWriteInCandidate>
+								<candidateIdentification>0a6cbbc7-c9fb-5782-aa06-7558db2d2ed5</candidateIdentification>
+								<candidateReference>01</candidateReference>
+							</candidateOrWriteInCandidate>
+							<isElectedByDraw>false</isElectedByDraw>
+						</electedCandidate>
+						<electedCandidate>
+							<candidateOrWriteInCandidate>
+								<writeInCandidate>
+									<candidateIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">834953ti-99p7-664l-c643-59734r973497</candidateIdentification>
+									<familyName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn family name 01</familyName>
+									<firstName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn first name 01</firstName>
+									<politicalFamilyName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn political family name 01</politicalFamilyName>
+									<politicalFirstName xmlns="http://www.ech.ch/xmlns/eCH-0155/5">WriteIn political first name 01</politicalFirstName>
+									<dateOfBirth xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1990-01-11</dateOfBirth>
+									<sex xmlns="http://www.ech.ch/xmlns/eCH-0155/5">1</sex>
+									<occupationalTitle xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+										<occupationalTitleInfo>
+											<language>de</language>
+											<occupationalTitle>Lehrer</occupationalTitle>
+										</occupationalTitleInfo>
+									</occupationalTitle>
+									<dwellingAddress xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+										<street xmlns="http://www.ech.ch/xmlns/eCH-0010/6">Hauptstrasse</street>
+										<houseNumber xmlns="http://www.ech.ch/xmlns/eCH-0010/6">11</houseNumber>
+										<town xmlns="http://www.ech.ch/xmlns/eCH-0010/6">Winterthur</town>
+										<swissZipCode xmlns="http://www.ech.ch/xmlns/eCH-0010/6">8400</swissZipCode>
+										<country xmlns="http://www.ech.ch/xmlns/eCH-0010/6">
+											<countryId>8100</countryId>
+											<countryIdISO2>CH</countryIdISO2>
+											<countryNameShort>Schweiz</countryNameShort>
+										</country>
+									</dwellingAddress>
+									<swiss xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+										<origin>Heimatort ZH</origin>
+									</swiss>
+									<incumbentYesNo xmlns="http://www.ech.ch/xmlns/eCH-0155/5">false</incumbentYesNo>
+									<candidateReference xmlns="http://www.ech.ch/xmlns/eCH-0155/5">04</candidateReference>
+									<partyAffiliation xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
+										<partyAffiliationInfo>
+											<language>de</language>
+											<partyAffiliationShort>FDP</partyAffiliationShort>
+											<partyAffiliationLong>FDP.Die Liberalen</partyAffiliationLong>
+										</partyAffiliationInfo>
+									</partyAffiliation>
+								</writeInCandidate>
+							</candidateOrWriteInCandidate>
+							<isElectedByDraw>false</isElectedByDraw>
+						</electedCandidate>
+					</majorityElection>
+				</elected>
+			</electionResult>
+		</electionGroupResult>
+		<numberOfEntries>1</numberOfEntries>
+	</electionResultDelivery>
+</delivery>

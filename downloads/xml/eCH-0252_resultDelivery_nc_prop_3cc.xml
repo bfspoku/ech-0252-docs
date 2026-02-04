@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<!-- Federal Statistical Office (2026). Example file for the eCH-0252 implementation of federal elections. Illustrates XML structure; does not contain real election data. -->
 <delivery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ech.ch/xmlns/eCH-0252/2">
 	<deliveryHeader>
 		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</senderId>
@@ -7,11 +8,11 @@
 		<sendingApplication xmlns="http://www.ech.ch/xmlns/eCH-0058/5">
 			<manufacturer>XXX Informatik AG</manufacturer>
 			<product>Product name</product>
-			<productVersion>Product Version</productVersion>
+			<productVersion>1.0</productVersion>
 		</sendingApplication>
 		<comment xmlns="http://www.ech.ch/xmlns/eCH-0058/5">Comment on delivery for receiving party</comment>
 		<messageDate xmlns="http://www.ech.ch/xmlns/eCH-0058/5">2025-10-24T13:40:23.8485049Z</messageDate>
-		<action xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</action>
+		<action xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1</action>
 		<testDeliveryFlag xmlns="http://www.ech.ch/xmlns/eCH-0058/5">true</testDeliveryFlag>
 	</deliveryHeader>
 	<electionResultDelivery>
