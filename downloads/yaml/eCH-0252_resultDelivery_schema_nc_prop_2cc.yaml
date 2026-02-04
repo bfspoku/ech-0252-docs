@@ -1,0 +1,59 @@
+delivery
+|-- deliveryHeader
+|    |-- senderId
+|    |-- messageId
+|    |-- messageType
+|    |-- sendingApplication
+|    |    |-- manufacturer
+|    |    |-- product
+|    |    └── productVersion
+|    |-- comment
+|    |-- messageDate
+|    |-- action
+|    └── testDeliveryFlag
+└── electionResultDelivery
+    |-- cantonId
+    |-- pollingDay
+    |-- electionGroupResult
+    |    |-- electionGroupIdentification
+    |    └── electionResult
+    |        |-- electionIdentification
+    |        |-- otherIdentification
+    |        |    |-- idName
+    |        |    └── id
+    |        └── countingCircleResult
+    |            |-- countingCircle
+    |            |    |-- countingCircleId
+    |            |    |-- countingCircleName
+    |            |    └── domainOfIncluenceType
+    |            └── resultData
+    |                |-- countOfVotersInformation
+    |                |    |-- countOfVotersTotal
+    |                |    └── subtotalInfo
+    |                |        |-- countOfVoters
+    |                |        |-- voterType
+    |                |        └── sex
+    |                |-- isFullyCounted
+    |                |-- voterTurnout
+    |                |-- countOfReceivedBallots
+    |                |-- countOfBlankBallots
+    |                |-- countOfInvalidBallots
+    |                |-- countOfValidBallots
+    |                └── electionResult
+    |                    |-- electionIdentification
+    |                    └── proportionalElection
+    |                        |-- countOfChangedBallotsWithoutListDesignation
+    |                        |-- countOfBlankVotesOfChangedBallotsWithoutListDesignation
+    |                        └── listResults
+    |                            |-- listIdentification
+    |                            |-- listIndentureNumber
+    |                            |-- countOfChangedBallots
+    |                            |-- countOfUnchangedBallots
+    |                            |-- countOfCandidateVotes
+    |                            |-- countOfAdditionalVotes
+    |                            └── candidateResults
+    |                                |-- candidateIdentification
+    |                                |-- candidateReferenceOnPosition
+    |                                |-- countOfVotesFromChangedBallots
+    |                                └── countOfVotesFromUnchangedBallots
+    └── numberOfEntries

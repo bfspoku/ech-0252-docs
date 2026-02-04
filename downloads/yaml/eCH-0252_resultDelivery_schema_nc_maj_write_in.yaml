@@ -1,0 +1,131 @@
+# P.S for *** 
+# A candidate can be represented in two ways:
+#   • candidateOrWriteInCandidate → candidateIdentification, candidateReference (Candidate transmitted in advance via informationDelivery)
+#   • candidateOrWriteInCandidate → writeInCandidate (Candidate transmitted only on election day) 
+# Below, you may find examples for both cases. Please modify your XML according to your situation.
+delivery
+|-- deliveryHeader
+|   |-- senderId
+|   |-- messageId
+|   |-- messageType
+|   |-- sendingApplication
+|   |   |-- manufacturer
+|   |   |-- product
+|   |   └── productVersion
+|   |-- comment
+|   |-- messageDate
+|   |-- action
+|   └── testDeliveryFlag
+└── electionResultDelivery
+    |-- cantonId
+    |-- pollingDay
+    |-- electionGroupResult
+    |   |-- electionGroupIdentification
+    |   └── electionResult
+    |       |-- electionIdentification
+    |       |-- otherIdentification
+    |       |   |-- idName
+    |       |   └── id
+    |       |-- countingCircleResult
+    |       |   |-- countingCircle
+    |       |   |   |-- countingCircleId
+    |       |   |   |-- countingCircleName
+    |       |   |   └── domainOfIncluenceType
+    |       |   └── resultData
+    |       |       |-- countOfVotersInformation
+    |       |       |   └── countOfVotersTotal
+    |       |       |-- isFullyCounted
+    |       |       |-- releasedTimestamp
+    |       |       |-- lockoutTimestamp
+    |       |       |-- voterTurnout
+    |       |       |-- countOfReceivedBallots
+    |       |       |-- countOfBlankBallots
+    |       |       |-- countOfInvalidBallots
+    |       |       |-- countOfValidBallots
+    |       |       └── electionResult
+    |       |           |-- electionIdentification
+    |       |           └── majorityElection
+    |       |               |-- candidateResult
+    |       |               |    |-- candidateOrWriteInCandidate
+    |       |               |    |    |-- candidateOrWriteInCandidate *** 
+    |       |               |    |    |   |-- candidateIdenfication
+    |       |               |    |    |   └── candidateReference
+    |       |               |    |    └── candidateOrWriteInCandidate ***
+    |       |               |    |        └── writeInCandidate
+    |       |               |    |            |-- candidateIdentification
+    |       |               |    |            |-- familyName
+    |       |               |    |            |-- firstName
+    |       |               |    |            |-- politicalFamilyName
+    |       |               |    |            |-- politicalFirstName
+    |       |               |    |            |-- dateOfBirth
+    |       |               |    |            |-- sex
+    |       |               |    |            |-- occupationalTitle
+    |       |               |    |            |    └── occupationalTitleInfo
+    |       |               |    |            |        |-- language
+    |       |               |    |            |        └── occupationalTitle
+    |       |               |    |            |-- dwellingAdress
+    |       |               |    |            |    |-- street
+    |       |               |    |            |    |-- houseNumber
+    |       |               |    |            |    |-- town
+    |       |               |    |            |    |-- swissZipCode
+    |       |               |    |            |    └── country
+    |       |               |    |            |        |-- countryId
+    |       |               |    |            |        |-- countryIdISO2
+    |       |               |    |            |        └── countryNameShort
+    |       |               |    |            |-- swiss
+    |       |               |    |            |    └── origin
+    |       |               |    |            |-- title
+    |       |               |    |            |-- incumbentYesNo
+    |       |               |    |            |-- candidateReference
+    |       |               |    |            └── partyAffiliation
+    |       |               |    |                └── partyAffiliationInfo
+    |       |               |    |                    |-- language
+    |       |               |    |                    |-- partyAffiliationShort
+    |       |               |    |                    └── partyAffiliationLong
+    |       |               |    └── countOfVotesTotal
+    |       |               |-- countOfInvalidVotesTotal
+    |       |               |-- countOfBlankVotesTotal
+    |       |               └── countOfIndividualVotesTotal
+    |       └── elected
+    |          └── majorityElection
+    |              |-- isElectionResultComplete
+    |              |-- electedCandidate ***
+    |              |   |-- candidateOrWriteInCandidate
+    |              |   |       |-- candidateIdentification
+    |              |   |       └── candidateReference
+    |              |   └── isElectedByDraw
+    |              └── electedCandidate ***
+    |                  |-- candidateOrWriteInCandidate
+    |                  |   └── writeInCandidate
+    |                  |       |-- candidateIdentification
+    |                  |       |-- familyName
+    |                  |       |-- firstName
+    |                  |       |-- politicalFamilyName
+    |                  |       |-- politicalFirstName
+    |                  |       |-- dateOfBirth
+    |                  |       |-- sex
+    |                  |       |-- occupationalTitle
+    |                  |       |    └── occupationalTitleInfo
+    |                  |       |        |-- language
+    |                  |       |        └── occupationalTitle
+    |                  |       |-- dwellingAdress
+    |                  |       |    |-- street
+    |                  |       |    |-- houseNumber
+    |                  |       |    |-- town
+    |                  |       |    |-- swissZipCode
+    |                  |       |    └── country
+    |                  |       |        |-- countryId
+    |                  |       |        |-- countryIdISO2
+    |                  |       |        └── countryNameShort
+    |                  |       |-- swiss
+    |                  |       |    └── origin
+    |                  |       |-- title
+    |                  |       |-- incumbentYesNo
+    |                  |       |-- candidateReference
+    |                  |       └── partyAffiliation
+    |                  |           └── partyAffiliationInfo
+    |                  |               |-- language
+    |                  |               |-- partyAffiliationShort
+    |                  |               └── partyAffiliationLong
+    |                  └── isElectedByDraw
+    └── numberOfEntries

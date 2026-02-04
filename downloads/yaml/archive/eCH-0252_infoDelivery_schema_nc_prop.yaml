@@ -31,6 +31,9 @@ delivery
     |    |    └── electionInformation
     |    |        |-- election
     |    |        |    |-- electionIdentification
+    |    |        |    |-- otherIdentification
+    |    |        |    |    |-- idName
+    |    |        |    |    └── id
     |    |        |    |-- typeOfElection
     |    |        |    |-- electionDescription
     |    |        |    |    └── electionDescriptionInfo
@@ -38,11 +41,9 @@ delivery
     |    |        |    |        |-- electionDescriptionShort
     |    |        |    |        └── electionDescription
     |    |        |    └── numberOfMandates
-    |    |        |-- otherIdentification
-    |    |        |    |-- idName
-    |    |        |    └── id
     |    |        |-- candidate
     |    |        |    |-- candidateIdentification
+    |    |        |    |-- candidateReference
     |    |        |    |-- familyName
     |    |        |    |-- firstName
     |    |        |    |-- politicalFamilyName
@@ -70,7 +71,6 @@ delivery
     |    |        |    |    └── origin
     |    |        |    |-- title
     |    |        |    |-- incumbentYesNo
-    |    |        |    |-- candidateReference
     |    |        |    └── partyAffiliation
     |    |        |        └── partyAffiliationInfo
     |    |        |            |-- language
@@ -103,7 +103,8 @@ delivery
     |    |            |        |-- language
     |    |            |        └── listUnionDescription
     |    |            |-- listUnionType
-    |    |            └── referencedList
+    |    |            |-- referencedList
+    |    |            └── referencedListUnion
     |    └── CountingCircle
     |        |-- countingCircleId
     |        |-- countingCircleName
