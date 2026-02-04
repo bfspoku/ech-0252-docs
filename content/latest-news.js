@@ -16,6 +16,22 @@ Note:
 */
 
 var newsData = [
+    {
+        "date": "04.02.2026",
+        "title": "Corrected Implementation Guide and improved XML sample files",
+        "message": `
+                    Following coordination with eCH, the position of the key element otherIdentification / idBund for federal elections has been corrected in the Implementation Guide and in the accompanying XML sample files.
+                    <br>
+                    All corresponding changes in the guide are marked in green.
+                    <br><br>
+                    In addition, several XML sample files have been corrected to ensure schema compliance.
+                    The sample package has been extended to include:
+                    <ul class="unstyled">
+                    <li> examples for National Council elections under the majoritarian system, and </li>
+                    <li> examples illustrating the handling of write-in candidates. </li>
+                    </ul>
+                   `
+    },
     { 
         "date": "20.01.2026", 
         "title": "The Swiss Election ETL System is up and running", 
@@ -29,5 +45,5 @@ var newsData = [
                     <li> YAML files defining mandatory XML structures as a baseline for implementation </li>
                     <li> XML example files illustrating compliant information and results deliveries </li>
                     </ul>`
-}
+    }
 ]
