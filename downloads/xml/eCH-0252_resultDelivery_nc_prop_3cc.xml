@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Federal Statistical Office (2026). Example file for the eCH-0252 implementation of federal elections. Illustrates XML structure; does not contain real election data. -->
 <delivery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ech.ch/xmlns/eCH-0252/2">
 	<deliveryHeader>
@@ -22,7 +22,10 @@
 			<electionGroupIdentification>9406b7d9-778c-4f03-a44b-9309c950d5a2</electionGroupIdentification>
 			<electionResult>
 				<electionIdentification>9406b7d9-778c-4f03-a44b-9309c950d5a2</electionIdentification>
-				<otherIdentification><idName>idBund</idName><id>NR2027</id></otherIdentification>
+				<otherIdentification>
+					<idName>idBund</idName>
+					<id>NR2027</id>
+				</otherIdentification>
 				<countingCircleResult>
 					<countingCircle>
 						<countingCircleId>1</countingCircleId>
@@ -87,7 +90,7 @@
 										<countOfVotesFromChangedBallots>145</countOfVotesFromChangedBallots>
 										<countOfVotesFromUnchangedBallots>150</countOfVotesFromUnchangedBallots>
 									</candidateResults>
-									</listResults>
+								</listResults>
 								<listResults>
 									<listIdentification>76506830-ffaf-4254-afbc-cbefa911014c</listIdentification>
 									<listIndentureNumber>02</listIndentureNumber>
@@ -113,7 +116,7 @@
 										<countOfVotesFromChangedBallots>89</countOfVotesFromChangedBallots>
 										<countOfVotesFromUnchangedBallots>44</countOfVotesFromUnchangedBallots>
 									</candidateResults>
-									</listResults>
+								</listResults>
 								<listResults>
 									<listIdentification>2b4dab01-8b91-4239-94e9-327ae7fe2e1c</listIdentification>
 									<listIndentureNumber>03</listIndentureNumber>
@@ -139,8 +142,8 @@
 										<countOfVotesFromChangedBallots>44</countOfVotesFromChangedBallots>
 										<countOfVotesFromUnchangedBallots>33</countOfVotesFromUnchangedBallots>
 									</candidateResults>
-									</listResults>
-								</proportionalElection>
+								</listResults>
+							</proportionalElection>
 						</electionResult>
 					</resultData>
 				</countingCircleResult>
@@ -208,7 +211,7 @@
 										<countOfVotesFromChangedBallots>490</countOfVotesFromChangedBallots>
 										<countOfVotesFromUnchangedBallots>607</countOfVotesFromUnchangedBallots>
 									</candidateResults>
-									</listResults>
+								</listResults>
 								<listResults>
 									<listIdentification>76506830-ffaf-4254-afbc-cbefa911014c</listIdentification>
 									<listIndentureNumber>02</listIndentureNumber>
@@ -234,7 +237,7 @@
 										<countOfVotesFromChangedBallots>412</countOfVotesFromChangedBallots>
 										<countOfVotesFromUnchangedBallots>231</countOfVotesFromUnchangedBallots>
 									</candidateResults>
-									</listResults>
+								</listResults>
 								<listResults>
 									<listIdentification>2b4dab01-8b91-4239-94e9-327ae7fe2e1c</listIdentification>
 									<listIndentureNumber>03</listIndentureNumber>
@@ -260,8 +263,8 @@
 										<countOfVotesFromChangedBallots>223</countOfVotesFromChangedBallots>
 										<countOfVotesFromUnchangedBallots>102</countOfVotesFromUnchangedBallots>
 									</candidateResults>
-									</listResults>
-								</proportionalElection>
+								</listResults>
+							</proportionalElection>
 						</electionResult>
 					</resultData>
 				</countingCircleResult>
@@ -329,7 +332,7 @@
 										<countOfVotesFromChangedBallots>221</countOfVotesFromChangedBallots>
 										<countOfVotesFromUnchangedBallots>745</countOfVotesFromUnchangedBallots>
 									</candidateResults>
-									</listResults>
+								</listResults>
 								<listResults>
 									<listIdentification>76506830-ffaf-4254-afbc-cbefa911014c</listIdentification>
 									<listIndentureNumber>02</listIndentureNumber>
@@ -355,7 +358,7 @@
 										<countOfVotesFromChangedBallots>514</countOfVotesFromChangedBallots>
 										<countOfVotesFromUnchangedBallots>789</countOfVotesFromUnchangedBallots>
 									</candidateResults>
-									</listResults>
+								</listResults>
 								<listResults>
 									<listIdentification>2b4dab01-8b91-4239-94e9-327ae7fe2e1c</listIdentification>
 									<listIndentureNumber>03</listIndentureNumber>
@@ -381,8 +384,8 @@
 										<countOfVotesFromChangedBallots>371</countOfVotesFromChangedBallots>
 										<countOfVotesFromUnchangedBallots>606</countOfVotesFromUnchangedBallots>
 									</candidateResults>
-									</listResults>
-								</proportionalElection>
+								</listResults>
+							</proportionalElection>
 						</electionResult>
 					</resultData>
 				</countingCircleResult>
@@ -394,10 +397,12 @@
 							<listIndentureNumber>01</listIndentureNumber>
 							<electedCandidate>
 								<candidateIdentification>c876dab0-5ba4-4b5b-b57c-959233565cfc</candidateIdentification>
+								<candidateReferenceOnPosition>01.01</candidateReferenceOnPosition>
 								<isElectedByDraw>false</isElectedByDraw>
 							</electedCandidate>
 							<electedCandidate>
 								<candidateIdentification>caed0e99-44b1-4f11-9c8d-5f5afe79b49a</candidateIdentification>
+								<candidateReferenceOnPosition>01.02</candidateReferenceOnPosition>
 								<isElectedByDraw>false</isElectedByDraw>
 							</electedCandidate>
 							<countOfSeatsGained>2</countOfSeatsGained>
@@ -407,6 +412,7 @@
 							<listIndentureNumber>02</listIndentureNumber>
 							<electedCandidate>
 								<candidateIdentification>e48d8851-1fcb-4548-a64b-4d8782efbf7e</candidateIdentification>
+								<candidateReferenceOnPosition>02.02</candidateReferenceOnPosition>
 								<isElectedByDraw>false</isElectedByDraw>
 							</electedCandidate>
 							<countOfSeatsGained>1</countOfSeatsGained>
