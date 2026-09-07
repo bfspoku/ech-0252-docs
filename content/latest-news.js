@@ -17,6 +17,27 @@ Note:
 
 var newsData = [
     {
+        "date": "07.09.2026",
+        "title": "Minor adjustments to the Implementation Guide and additional sample files",
+        "message": `
+                    The Implementation Guide has been updated with several minor adjustments and clarifications based on feedback received during implementation with the cantons and software providers. All corresponding changes in the guide are marked in green.
+                    <br><br>
+                    The main adjustments include:
+                    <ul class="unstyled">
+                    <li> clarifications regarding majoritarian elections and uncontested elections;</li>
+                    <li> revised handling of National Council candidates residing abroad;</li>
+                    <li> use of Sedex message type 1055 for both elections and referendums; and</li>
+                    <li> information on the planned second Sedex receiver ID for georedundant operation.</li>
+                    </ul>
+                    <br>
+                    In addition, the XML-sample package has been extended to include:
+                    <ul class="unstyled">
+                    <li> an example <code>resultDelivery</code> containing panachage data; and</li>
+                    <li> an example for federal votes, based on the votes of 8 March 2026 and covering popular initiatives, an optional referendum, and a popular initiative with a direct counter-proposal.</li>
+                    </ul>
+                    `
+    },
+    {
         "date": "04.02.2026",
         "title": "Corrected Implementation Guide and improved XML sample files",
         "message": `
