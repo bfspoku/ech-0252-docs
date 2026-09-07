@@ -4,7 +4,7 @@
 	<deliveryHeader>
 		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</senderId>
 		<messageId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</messageId>
-		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1240</messageType>
+		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1055</messageType>
 		<sendingApplication xmlns="http://www.ech.ch/xmlns/eCH-0058/5">
 			<manufacturer>XXX Informatik AG</manufacturer>
 			<product>Product name</product>
@@ -17,7 +17,7 @@
 	</deliveryHeader>
 	<electionInformationDelivery>
 		<cantonId>1</cantonId>
-		<pollingDay>2023-10-22</pollingDay>
+		<pollingDay>2026-01-20</pollingDay>
 		<electionGroupInfo>
 			<electionGroup>
 				<electionGroupIdentification>f81381de-06b1-5402-b9ec-ac51ddf94238</electionGroupIdentification>
@@ -48,8 +48,8 @@
 						<numberOfMandates xmlns="http://www.ech.ch/xmlns/eCH-0155/5">2</numberOfMandates>
 					</election>
 					<otherIdentification>
-							<idName>idBund</idName>
-							<id>NR2027</id>
+						<idName>idBund</idName>
+						<id>NR2027</id>
 					</otherIdentification>
 					<candidate>
 						<candidateIdentification xmlns="http://www.ech.ch/xmlns/eCH-0155/5">3c99209c-740c-5513-a317-5fcd33f0e90f</candidateIdentification>
@@ -81,7 +81,6 @@
 								<countryIdISO2>CH</countryIdISO2>
 								<countryNameShort>Schweiz</countryNameShort>
 							</country>
-							
 						</dwellingAddress>
 						<swiss xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<origin>Heimatort ZH</origin>
@@ -126,7 +125,6 @@
 								<countryIdISO2>CH</countryIdISO2>
 								<countryNameShort>Schweiz</countryNameShort>
 							</country>
-							
 						</dwellingAddress>
 						<swiss xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 							<origin>Heimatort ZH, Heimatort BE</origin>

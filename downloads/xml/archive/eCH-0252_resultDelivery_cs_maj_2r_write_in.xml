@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Federal Statistical Office (2026). Example file for the eCH-0252 implementation of federal elections. Illustrates XML structure; does not contain real election data. -->
+<!--
+	Federal Statistical Office (2026). Example file for the eCH-0252 implementation of federal elections. Illustrates XML structure; does not contain real election data.
+	Special example with two elected candidates in the second election round: one candidate known in advance and one write-in candidate.
+-->
 <delivery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ech.ch/xmlns/eCH-0252/2">
 	<deliveryHeader>
 		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</senderId>
 		<messageId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</messageId>
-		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1055</messageType>
+		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1240</messageType>
 		<sendingApplication xmlns="http://www.ech.ch/xmlns/eCH-0058/5">
 			<manufacturer>XXX Informatik AG</manufacturer>
 			<product>Product name</product>
 			<productVersion>1.0</productVersion>
 		</sendingApplication>
 		<comment xmlns="http://www.ech.ch/xmlns/eCH-0058/5">Comment on delivery for receiving party</comment>
-		<messageDate xmlns="http://www.ech.ch/xmlns/eCH-0058/5">2024-11-04T09:20:45.8197974Z</messageDate>
+		<messageDate xmlns="http://www.ech.ch/xmlns/eCH-0058/5">2024-11-04T09:20:46.2101552Z</messageDate>
 		<action xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1</action>
 		<testDeliveryFlag xmlns="http://www.ech.ch/xmlns/eCH-0058/5">true</testDeliveryFlag>
 	</deliveryHeader>
 	<electionResultDelivery>
 		<cantonId>1</cantonId>
-		<pollingDay>2026-01-20</pollingDay>
+		<pollingDay>2023-11-19</pollingDay>
 		<electionGroupResult>
-			<electionGroupIdentification>f81381de-06b1-5402-b9ec-ac51ddf94238</electionGroupIdentification>
+			<electionGroupIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionGroupIdentification>
 			<electionResult>
-				<electionIdentification>f81381de-06b1-5402-b9ec-ac51ddf94238</electionIdentification>
+				<electionIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionIdentification>
 				<otherIdentification>
 					<idName>idBund</idName>
-					<id>NR2027</id>
+					<id>SR2027_2</id>
 				</otherIdentification>
 				<countingCircleResult>
 					<countingCircle>
@@ -34,46 +37,39 @@
 					</countingCircle>
 					<resultData>
 						<countOfVotersInformation>
-							<countOfVotersTotal>1384</countOfVotersTotal>
-							<subtotalInfo>
-								<countOfVoters>679</countOfVoters>
-								<voterType>1</voterType>
-								<sex>1</sex>
-							</subtotalInfo>
-							<subtotalInfo>
-								<countOfVoters>705</countOfVoters>
-								<voterType>1</voterType>
-								<sex>2</sex>
-							</subtotalInfo>
+							<countOfVotersTotal>1381</countOfVotersTotal>
 						</countOfVotersInformation>
 						<isFullyCounted>true</isFullyCounted>
-						<countOfReceivedBallots>813</countOfReceivedBallots>
-						<countOfBlankBallots>0</countOfBlankBallots>
+						<releasedTimestamp>2023-11-19T10:02:58Z</releasedTimestamp>
+						<lockoutTimestamp>2023-11-19T10:07:42Z</lockoutTimestamp>
+						<voterTurnout>48.37</voterTurnout>
+						<countOfReceivedBallots>668</countOfReceivedBallots>
+						<countOfBlankBallots>1</countOfBlankBallots>
 						<countOfInvalidBallots>0</countOfInvalidBallots>
-						<countOfValidBallots>813</countOfValidBallots>
+						<countOfValidBallots>667</countOfValidBallots>
 						<electionResult>
-							<electionIdentification>f81381de-06b1-5402-b9ec-ac51ddf94238</electionIdentification>
+							<electionIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionIdentification>
 							<majorityElection>
 								<candidateResult>
 									<candidateOrWriteInCandidate>
-										<candidateIdentification>3c99209c-740c-5513-a317-5fcd33f0e90f</candidateIdentification>
+										<candidateIdentification>0a6cbbc7-c9fb-5782-aa06-7558db2d2ed5</candidateIdentification>
 										<candidateReference>01</candidateReference>
 									</candidateOrWriteInCandidate>
-									<countOfVotesTotal>62</countOfVotesTotal>
+									<countOfVotesTotal>190</countOfVotesTotal>
 								</candidateResult>
 								<candidateResult>
 									<candidateOrWriteInCandidate>
-										<candidateIdentification>898592e0-5850-500d-8ea9-dfe480e735f4</candidateIdentification>
+										<candidateIdentification>8850a7a5-57d1-5e80-8d56-4f68d7becdb5</candidateIdentification>
 										<candidateReference>02</candidateReference>
 									</candidateOrWriteInCandidate>
-									<countOfVotesTotal>389</countOfVotesTotal>
+									<countOfVotesTotal>4</countOfVotesTotal>
 								</candidateResult>
 								<candidateResult>
 									<candidateOrWriteInCandidate>
-										<candidateIdentification>825434ad-87e3-584d-b013-86619e553732</candidateIdentification>
+										<candidateIdentification>66a7eafc-b262-53e3-b12d-96a675d83298</candidateIdentification>
 										<candidateReference>03</candidateReference>
 									</candidateOrWriteInCandidate>
-									<countOfVotesTotal>96</countOfVotesTotal>
+									<countOfVotesTotal>205</countOfVotesTotal>
 								</candidateResult>
 								<candidateResult>
 									<candidateOrWriteInCandidate>
@@ -88,7 +84,7 @@
 											<occupationalTitle xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 												<occupationalTitleInfo>
 													<language>de</language>
-													<occupationalTitle>Nationalrat</occupationalTitle>
+													<occupationalTitle>Lehrer</occupationalTitle>
 												</occupationalTitleInfo>
 											</occupationalTitle>
 											<dwellingAddress xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
@@ -110,17 +106,17 @@
 											<partyAffiliation xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 												<partyAffiliationInfo>
 													<language>de</language>
-													<partyAffiliationShort>EVP</partyAffiliationShort>
-													<partyAffiliationLong>Evangelische Volkspartei der Schweiz</partyAffiliationLong>
+													<partyAffiliationShort>FDP</partyAffiliationShort>
+													<partyAffiliationLong>FDP.Die Liberalen</partyAffiliationLong>
 												</partyAffiliationInfo>
 											</partyAffiliation>
 										</writeInCandidate>
 									</candidateOrWriteInCandidate>
-									<countOfVotesTotal>1800</countOfVotesTotal>
+									<countOfVotesTotal>250</countOfVotesTotal>
 								</candidateResult>
-								<countOfInvalidVotesTotal>7</countOfInvalidVotesTotal>
-								<countOfBlankVotesTotal>76</countOfBlankVotesTotal>
-								<countOfIndividualVotesTotal>23</countOfIndividualVotesTotal>
+								<countOfInvalidVotesTotal>0</countOfInvalidVotesTotal>
+								<countOfBlankVotesTotal>0</countOfBlankVotesTotal>
+								<countOfIndividualVotesTotal>5</countOfIndividualVotesTotal>
 							</majorityElection>
 						</electionResult>
 					</resultData>
@@ -133,46 +129,39 @@
 					</countingCircle>
 					<resultData>
 						<countOfVotersInformation>
-							<countOfVotersTotal>7280</countOfVotersTotal>
-							<subtotalInfo>
-								<countOfVoters>3660</countOfVoters>
-								<voterType>1</voterType>
-								<sex>1</sex>
-							</subtotalInfo>
-							<subtotalInfo>
-								<countOfVoters>3620</countOfVoters>
-								<voterType>1</voterType>
-								<sex>2</sex>
-							</subtotalInfo>
+							<countOfVotersTotal>7286</countOfVotersTotal>
 						</countOfVotersInformation>
 						<isFullyCounted>true</isFullyCounted>
-						<countOfReceivedBallots>3302</countOfReceivedBallots>
-						<countOfBlankBallots>15</countOfBlankBallots>
-						<countOfInvalidBallots>0</countOfInvalidBallots>
-						<countOfValidBallots>3287</countOfValidBallots>
+						<releasedTimestamp>2023-11-19T09:40:05Z</releasedTimestamp>
+						<lockoutTimestamp>2023-11-19T09:46:47Z</lockoutTimestamp>
+						<voterTurnout>35.27</voterTurnout>
+						<countOfReceivedBallots>2570</countOfReceivedBallots>
+						<countOfBlankBallots>14</countOfBlankBallots>
+						<countOfInvalidBallots>2</countOfInvalidBallots>
+						<countOfValidBallots>2554</countOfValidBallots>
 						<electionResult>
-							<electionIdentification>f81381de-06b1-5402-b9ec-ac51ddf94238</electionIdentification>
+							<electionIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionIdentification>
 							<majorityElection>
 								<candidateResult>
 									<candidateOrWriteInCandidate>
-										<candidateIdentification>3c99209c-740c-5513-a317-5fcd33f0e90f</candidateIdentification>
+										<candidateIdentification>0a6cbbc7-c9fb-5782-aa06-7558db2d2ed5</candidateIdentification>
 										<candidateReference>01</candidateReference>
 									</candidateOrWriteInCandidate>
-									<countOfVotesTotal>256</countOfVotesTotal>
+									<countOfVotesTotal>623</countOfVotesTotal>
 								</candidateResult>
 								<candidateResult>
 									<candidateOrWriteInCandidate>
-										<candidateIdentification>898592e0-5850-500d-8ea9-dfe480e735f4</candidateIdentification>
+										<candidateIdentification>8850a7a5-57d1-5e80-8d56-4f68d7becdb5</candidateIdentification>
 										<candidateReference>02</candidateReference>
 									</candidateOrWriteInCandidate>
-									<countOfVotesTotal>1636</countOfVotesTotal>
+									<countOfVotesTotal>2</countOfVotesTotal>
 								</candidateResult>
 								<candidateResult>
 									<candidateOrWriteInCandidate>
-										<candidateIdentification>825434ad-87e3-584d-b013-86619e553732</candidateIdentification>
+										<candidateIdentification>66a7eafc-b262-53e3-b12d-96a675d83298</candidateIdentification>
 										<candidateReference>03</candidateReference>
 									</candidateOrWriteInCandidate>
-									<countOfVotesTotal>497</countOfVotesTotal>
+									<countOfVotesTotal>453</countOfVotesTotal>
 								</candidateResult>
 								<candidateResult>
 									<candidateOrWriteInCandidate>
@@ -187,7 +176,7 @@
 											<occupationalTitle xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 												<occupationalTitleInfo>
 													<language>de</language>
-													<occupationalTitle>Nationalrat</occupationalTitle>
+													<occupationalTitle>Lehrer</occupationalTitle>
 												</occupationalTitleInfo>
 											</occupationalTitle>
 											<dwellingAddress xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
@@ -209,69 +198,62 @@
 											<partyAffiliation xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 												<partyAffiliationInfo>
 													<language>de</language>
-													<partyAffiliationShort>EVP</partyAffiliationShort>
-													<partyAffiliationLong>Evangelische Volkspartei der Schweiz</partyAffiliationLong>
+													<partyAffiliationShort>FDP</partyAffiliationShort>
+													<partyAffiliationLong>FDP.Die Liberalen</partyAffiliationLong>
 												</partyAffiliationInfo>
 											</partyAffiliation>
 										</writeInCandidate>
 									</candidateOrWriteInCandidate>
-									<countOfVotesTotal>1555</countOfVotesTotal>
+									<countOfVotesTotal>1400</countOfVotesTotal>
 								</candidateResult>
-								<countOfInvalidVotesTotal>35</countOfInvalidVotesTotal>
-								<countOfBlankVotesTotal>253</countOfBlankVotesTotal>
-								<countOfIndividualVotesTotal>177</countOfIndividualVotesTotal>
+								<countOfInvalidVotesTotal>1</countOfInvalidVotesTotal>
+								<countOfBlankVotesTotal>0</countOfBlankVotesTotal>
+								<countOfIndividualVotesTotal>10</countOfIndividualVotesTotal>
 							</majorityElection>
 						</electionResult>
 					</resultData>
 				</countingCircleResult>
 				<countingCircleResult>
 					<countingCircle>
-						<countingCircleId>9010</countingCircleId>
+						<countingCircleId>19010</countingCircleId>
 						<countingCircleName>Auslandschweizer</countingCircleName>
 						<domainOfInfluenceType>MU</domainOfInfluenceType>
 					</countingCircle>
 					<resultData>
 						<countOfVotersInformation>
-							<countOfVotersTotal>35055</countOfVotersTotal>
-							<subtotalInfo>
-								<countOfVoters>18130</countOfVoters>
-								<voterType>1</voterType>
-								<sex>1</sex>
-							</subtotalInfo>
-							<subtotalInfo>
-								<countOfVoters>16925</countOfVoters>
-								<voterType>1</voterType>
-								<sex>2</sex>
-							</subtotalInfo>
+							<countOfVotersTotal>35204</countOfVotersTotal>
 						</countOfVotersInformation>
 						<isFullyCounted>true</isFullyCounted>
-						<countOfReceivedBallots>5968</countOfReceivedBallots>
-						<countOfBlankBallots>51</countOfBlankBallots>
-						<countOfInvalidBallots>11</countOfInvalidBallots>
-						<countOfValidBallots>5906</countOfValidBallots>
+						<releasedTimestamp>2023-11-19T13:18:02Z</releasedTimestamp>
+						<lockoutTimestamp>2023-11-19T13:25:49Z</lockoutTimestamp>
+						<voterTurnout>10.02</voterTurnout>
+						<countOfReceivedBallots>3526</countOfReceivedBallots>
+						<countOfBlankBallots>25</countOfBlankBallots>
+						<countOfInvalidBallots>0</countOfInvalidBallots>
+						<countOfValidBallots>3501</countOfValidBallots>
 						<electionResult>
-							<electionIdentification>f81381de-06b1-5402-b9ec-ac51ddf94238</electionIdentification>
+							<electionIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionIdentification>
 							<majorityElection>
 								<candidateResult>
 									<candidateOrWriteInCandidate>
-										<candidateIdentification>3c99209c-740c-5513-a317-5fcd33f0e90f</candidateIdentification>
+										<candidateIdentification>0a6cbbc7-c9fb-5782-aa06-7558db2d2ed5</candidateIdentification>
 										<candidateReference>01</candidateReference>
 									</candidateOrWriteInCandidate>
-									<countOfVotesTotal>432</countOfVotesTotal>
+									<countOfVotesTotal>685</countOfVotesTotal>
 								</candidateResult>
 								<candidateResult>
 									<candidateOrWriteInCandidate>
-										<candidateIdentification>898592e0-5850-500d-8ea9-dfe480e735f4</candidateIdentification>
+										<candidateIdentification>8850a7a5-57d1-5e80-8d56-4f68d7becdb5</candidateIdentification>
 										<candidateReference>02</candidateReference>
 									</candidateOrWriteInCandidate>
-									<countOfVotesTotal>2735</countOfVotesTotal>
+									<countOfVotesTotal>50</countOfVotesTotal>
 								</candidateResult>
 								<candidateResult>
 									<candidateOrWriteInCandidate>
-										<candidateIdentification>825434ad-87e3-584d-b013-86619e553732</candidateIdentification>
+										<candidateIdentification>66a7eafc-b262-53e3-b12d-96a675d83298</candidateIdentification>
 										<candidateReference>03</candidateReference>
 									</candidateOrWriteInCandidate>
-									<countOfVotesTotal>743</countOfVotesTotal>
+									<countOfVotesTotal>325</countOfVotesTotal>
 								</candidateResult>
 								<candidateResult>
 									<candidateOrWriteInCandidate>
@@ -286,7 +268,7 @@
 											<occupationalTitle xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 												<occupationalTitleInfo>
 													<language>de</language>
-													<occupationalTitle>Nationalrat</occupationalTitle>
+													<occupationalTitle>Lehrer</occupationalTitle>
 												</occupationalTitleInfo>
 											</occupationalTitle>
 											<dwellingAddress xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
@@ -308,17 +290,17 @@
 											<partyAffiliation xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 												<partyAffiliationInfo>
 													<language>de</language>
-													<partyAffiliationShort>EVP</partyAffiliationShort>
-													<partyAffiliationLong>Evangelische Volkspartei der Schweiz</partyAffiliationLong>
+													<partyAffiliationShort>FDP</partyAffiliationShort>
+													<partyAffiliationLong>FDP.Die Liberalen</partyAffiliationLong>
 												</partyAffiliationInfo>
 											</partyAffiliation>
 										</writeInCandidate>
 									</candidateOrWriteInCandidate>
 									<countOfVotesTotal>2100</countOfVotesTotal>
 								</candidateResult>
-								<countOfInvalidVotesTotal>62</countOfInvalidVotesTotal>
-								<countOfBlankVotesTotal>431</countOfBlankVotesTotal>
-								<countOfIndividualVotesTotal>456</countOfIndividualVotesTotal>
+								<countOfInvalidVotesTotal>8</countOfInvalidVotesTotal>
+								<countOfBlankVotesTotal>0</countOfBlankVotesTotal>
+								<countOfIndividualVotesTotal>22</countOfIndividualVotesTotal>
 							</majorityElection>
 						</electionResult>
 					</resultData>
@@ -326,6 +308,13 @@
 				<elected>
 					<majorityElection>
 						<isElectionResultComplete>true</isElectionResultComplete>
+						<electedCandidate>
+							<candidateOrWriteInCandidate>
+								<candidateIdentification>0a6cbbc7-c9fb-5782-aa06-7558db2d2ed5</candidateIdentification>
+								<candidateReference>01</candidateReference>
+							</candidateOrWriteInCandidate>
+							<isElectedByDraw>false</isElectedByDraw>
+						</electedCandidate>
 						<electedCandidate>
 							<candidateOrWriteInCandidate>
 								<writeInCandidate>
@@ -339,7 +328,7 @@
 									<occupationalTitle xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 										<occupationalTitleInfo>
 											<language>de</language>
-											<occupationalTitle>Nationalrat</occupationalTitle>
+											<occupationalTitle>Lehrer</occupationalTitle>
 										</occupationalTitleInfo>
 									</occupationalTitle>
 									<dwellingAddress xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
@@ -361,8 +350,8 @@
 									<partyAffiliation xmlns="http://www.ech.ch/xmlns/eCH-0155/5">
 										<partyAffiliationInfo>
 											<language>de</language>
-											<partyAffiliationShort>EVP</partyAffiliationShort>
-											<partyAffiliationLong>Evangelische Volkspartei der Schweiz</partyAffiliationLong>
+											<partyAffiliationShort>FDP</partyAffiliationShort>
+											<partyAffiliationLong>FDP.Die Liberalen</partyAffiliationLong>
 										</partyAffiliationInfo>
 									</partyAffiliation>
 								</writeInCandidate>

@@ -4,7 +4,7 @@
 	<deliveryHeader>
 		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</senderId>
 		<messageId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</messageId>
-		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1240</messageType>
+		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1055</messageType>
 		<sendingApplication xmlns="http://www.ech.ch/xmlns/eCH-0058/5">
 			<manufacturer>XXX Informatik AG</manufacturer>
 			<product>Product name</product>
@@ -46,16 +46,7 @@
 								<sex>2</sex>
 							</subtotalInfo>
 						</countOfVotersInformation>
-						<votingCardInformation>
-							<countOfVotingCardsReceivedInBallotBox>98</countOfVotingCardsReceivedInBallotBox>
-							<countOfVotingCardsReceivedPrematurelyInBallotBox>3</countOfVotingCardsReceivedPrematurelyInBallotBox>
-							<countOfVotingCardsReceivedByMail>727</countOfVotingCardsReceivedByMail>
-							<countOfInvalidVotingCardsReceivedByMail>6</countOfInvalidVotingCardsReceivedByMail>
-						</votingCardInformation>
 						<isFullyCounted>true</isFullyCounted>
-						<releasedTimestamp>2025-05-02T12:55:02.812063Z</releasedTimestamp>
-						<lockoutTimestamp>2025-05-06T11:37:20.65967Z</lockoutTimestamp>
-						<voterTurnout>57.56</voterTurnout>
 						<countOfReceivedBallots>815</countOfReceivedBallots>
 						<countOfBlankBallots>1</countOfBlankBallots>
 						<countOfInvalidBallots>5</countOfInvalidBallots>
@@ -167,16 +158,7 @@
 								<sex>2</sex>
 							</subtotalInfo>
 						</countOfVotersInformation>
-						<votingCardInformation>
-							<countOfVotingCardsReceivedInBallotBox>246</countOfVotingCardsReceivedInBallotBox>
-							<countOfVotingCardsReceivedPrematurelyInBallotBox>22</countOfVotingCardsReceivedPrematurelyInBallotBox>
-							<countOfVotingCardsReceivedByMail>3154</countOfVotingCardsReceivedByMail>
-							<countOfInvalidVotingCardsReceivedByMail>27</countOfInvalidVotingCardsReceivedByMail>
-						</votingCardInformation>
 						<isFullyCounted>true</isFullyCounted>
-						<releasedTimestamp>2025-05-02T12:54:00.806459Z</releasedTimestamp>
-						<lockoutTimestamp>2025-05-06T11:37:36.254013Z</lockoutTimestamp>
-						<voterTurnout>44.91</voterTurnout>
 						<countOfReceivedBallots>3279</countOfReceivedBallots>
 						<countOfBlankBallots>0</countOfBlankBallots>
 						<countOfInvalidBallots>53</countOfInvalidBallots>
@@ -270,7 +252,7 @@
 				</countingCircleResult>
 				<countingCircleResult>
 					<countingCircle>
-						<countingCircleId>19010</countingCircleId>
+						<countingCircleId>9010</countingCircleId>
 						<countingCircleName>Auslandschweizer</countingCircleName>
 						<domainOfInfluenceType>MU</domainOfInfluenceType>
 					</countingCircle>
@@ -288,16 +270,7 @@
 								<sex>2</sex>
 							</subtotalInfo>
 						</countOfVotersInformation>
-						<votingCardInformation>
-							<countOfVotingCardsReceivedInBallotBox>0</countOfVotingCardsReceivedInBallotBox>
-							<countOfVotingCardsReceivedPrematurelyInBallotBox>0</countOfVotingCardsReceivedPrematurelyInBallotBox>
-							<countOfVotingCardsReceivedByMail>7606</countOfVotingCardsReceivedByMail>
-							<countOfInvalidVotingCardsReceivedByMail>128</countOfInvalidVotingCardsReceivedByMail>
-						</votingCardInformation>
 						<isFullyCounted>true</isFullyCounted>
-						<releasedTimestamp>2025-05-09T12:30:55.976671Z</releasedTimestamp>
-						<lockoutTimestamp>2025-05-09T12:49:13.093075Z</lockoutTimestamp>
-						<voterTurnout>16.45</voterTurnout>
 						<countOfReceivedBallots>5767</countOfReceivedBallots>
 						<countOfBlankBallots>0</countOfBlankBallots>
 						<countOfInvalidBallots>54</countOfInvalidBallots>

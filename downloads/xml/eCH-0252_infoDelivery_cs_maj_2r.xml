@@ -4,7 +4,7 @@
 	<deliveryHeader>
 		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</senderId>
 		<messageId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</messageId>
-		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1240</messageType>
+		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1055</messageType>
 		<sendingApplication xmlns="http://www.ech.ch/xmlns/eCH-0058/5">
 			<manufacturer>XXX Informatik AG</manufacturer>
 			<product>Product name</product>
@@ -17,7 +17,7 @@
 	</deliveryHeader>
 	<electionInformationDelivery>
 		<cantonId>1</cantonId>
-		<pollingDay>2023-11-19</pollingDay>
+		<pollingDay>2026-02-20</pollingDay>
 		<electionGroupInfo>
 			<electionGroup>
 				<electionGroupIdentification>40d7af4d-3b19-542c-9ef9-84571cc7ea94</electionGroupIdentification>
@@ -196,7 +196,7 @@
 				<domainOfInfluenceType>MU</domainOfInfluenceType>
 			</countingCircle>
 			<countingCircle>
-				<countingCircleId>19010</countingCircleId>
+				<countingCircleId>9010</countingCircleId>
 				<countingCircleName>Auslandschweizer</countingCircleName>
 				<domainOfInfluenceType>MU</domainOfInfluenceType>
 			</countingCircle>

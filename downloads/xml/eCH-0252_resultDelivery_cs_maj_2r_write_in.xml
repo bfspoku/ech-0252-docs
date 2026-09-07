@@ -7,7 +7,7 @@
 	<deliveryHeader>
 		<senderId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</senderId>
 		<messageId xmlns="http://www.ech.ch/xmlns/eCH-0058/5">(not used)</messageId>
-		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1240</messageType>
+		<messageType xmlns="http://www.ech.ch/xmlns/eCH-0058/5">1055</messageType>
 		<sendingApplication xmlns="http://www.ech.ch/xmlns/eCH-0058/5">
 			<manufacturer>XXX Informatik AG</manufacturer>
 			<product>Product name</product>
@@ -40,8 +40,6 @@
 							<countOfVotersTotal>1381</countOfVotersTotal>
 						</countOfVotersInformation>
 						<isFullyCounted>true</isFullyCounted>
-						<releasedTimestamp>2023-11-19T10:02:58Z</releasedTimestamp>
-						<lockoutTimestamp>2023-11-19T10:07:42Z</lockoutTimestamp>
 						<voterTurnout>48.37</voterTurnout>
 						<countOfReceivedBallots>668</countOfReceivedBallots>
 						<countOfBlankBallots>1</countOfBlankBallots>
@@ -132,8 +130,6 @@
 							<countOfVotersTotal>7286</countOfVotersTotal>
 						</countOfVotersInformation>
 						<isFullyCounted>true</isFullyCounted>
-						<releasedTimestamp>2023-11-19T09:40:05Z</releasedTimestamp>
-						<lockoutTimestamp>2023-11-19T09:46:47Z</lockoutTimestamp>
 						<voterTurnout>35.27</voterTurnout>
 						<countOfReceivedBallots>2570</countOfReceivedBallots>
 						<countOfBlankBallots>14</countOfBlankBallots>
@@ -215,7 +211,7 @@
 				</countingCircleResult>
 				<countingCircleResult>
 					<countingCircle>
-						<countingCircleId>19010</countingCircleId>
+						<countingCircleId>9010</countingCircleId>
 						<countingCircleName>Auslandschweizer</countingCircleName>
 						<domainOfInfluenceType>MU</domainOfInfluenceType>
 					</countingCircle>
@@ -224,8 +220,6 @@
 							<countOfVotersTotal>35204</countOfVotersTotal>
 						</countOfVotersInformation>
 						<isFullyCounted>true</isFullyCounted>
-						<releasedTimestamp>2023-11-19T13:18:02Z</releasedTimestamp>
-						<lockoutTimestamp>2023-11-19T13:25:49Z</lockoutTimestamp>
 						<voterTurnout>10.02</voterTurnout>
 						<countOfReceivedBallots>3526</countOfReceivedBallots>
 						<countOfBlankBallots>25</countOfBlankBallots>
